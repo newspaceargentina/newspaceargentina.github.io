@@ -1,0 +1,404 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.13524650783856,
+                    -31.30955606148428
+                ]
+            },
+            "properties": {
+                "nombre": "Laboratorio de Comunicaciones Digitales",
+                "institucion": "CONICET",
+                "provincia": "Córdoba",
+                "direccion": "Av Velez Sarsfield 2000",
+                "telefono": "+5493512446010",
+                "email": "juanfraire@gmail.com",
+                "sitio_web": "https://fcefyn.unc.edu.ar/facultad/secretarias/investigacion-y-desarrollo/laboratorios/laboratorio-de-comunicaciones-digitales/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.00619846121926,
+                    -40.986442685025786
+                ]
+            },
+            "properties": {
+                "nombre": "Departamento de Ingeniería en Telecomunicaciones",
+                "institucion": "CNEA",
+                "provincia": "Río Negro",
+                "direccion": "Av. Bustillo 9500",
+                "telefono": "+542944445100",
+                "email": "pcostanzo@ib.edu.ar",
+                "sitio_web": "www.ib.edu.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.068379040969724,
+                    -34.935053305539256
+                ]
+            },
+            "properties": {
+                "nombre": "Instituto Argentino de Radioastronomia (IAR)",
+                "institucion": "CONICET-CIC-UNLP",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Camino Gral. Belgrano Km 40 - Berazategui - Prov. de Buenos Aires - ARGENTINA",
+                "telefono": "+54-221-482-4903 |  +54-221-423-5029 | +54-221-423-5018 | +54-221-423-4971",
+                "email": "msalibe@iar.unlp.edu.ar",
+                "sitio_web": "https://www.iar.unlp.edu.ar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.9482755796362,
+                    -34.83022488315498
+                ]
+            },
+            "properties": {
+                "nombre": "Departamento Energía Solar - Area Limpia para integracion de paneles solares de uso espacial.",
+                "institucion": "COMISION NACIONAL DE ENERGIA ATOMICA",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Av. Gral Paz 1499, Villa Maipu, San Martin",
+                "telefono": 541167727559,
+                "email": "hernansocolovsky@cnea.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/cnea/cac/energia-solar/integracion-y-ensayo-de-paneles-solares-espaciales"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.998860235820764,
+                    -35.19210119390506
+                ]
+            },
+            "properties": {
+                "nombre": "SENyT (Sistemas Electrónicos de Navegación y Telecomunicaciones)",
+                "institucion": "Facultad de Ingeniería, Universidad Nacional de La Plata",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Calle 48 y 116, La Plata (1900)",
+                "telefono": 2215924980,
+                "email": "senyt@ing.unlp.edu.ar",
+                "sitio_web": "https://senyt.ar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.91676874347757,
+                    -35.16370882186194
+                ]
+            },
+            "properties": {
+                "nombre": "Laboratorio de Microelectrónica- Depto de Electrónica-CITEDEF",
+                "institucion": "CITEDEF-Ministerio de Defensa",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Juan Bautista de la Salle 4397, Villa Martelli, B1603",
+                "telefono": "01147098156",
+                "email": "carrieta@citedef.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/defensa/citedef"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.024772131966586,
+                    -34.94699038037063
+                ]
+            },
+            "properties": {
+                "nombre": "DEPARTAMENTO DE ENSAYOS AMBIENTALES",
+                "institucion": "CITEDEF",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "JUAN BAUTISTA LASALLE 4397",
+                "telefono": 47098100,
+                "email": "RELGUL@CITEDEF.GOB.AR",
+                "sitio_web": "WWW.MINDEF.GOB.AR"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.61984783757018,
+                    -31.379022985899127
+                ]
+            },
+            "properties": {
+                "nombre": "Complejo Astronómico El Leoncito (CASLEO)",
+                "institucion": "CONICET - UNLP - UNC - UNSJ",
+                "provincia": "San Juan",
+                "direccion": "Av. España 1512 sur, casilla de correo 467, J5402DSP, San Juan, Argentina.",
+                "telefono": "+54-264-4933525",
+                "email": "direccion@casleogov.ar",
+                "sitio_web": "https://casleo.conicet.gov.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.86724805722383,
+                    -34.973424619309164
+                ]
+            },
+            "properties": {
+                "nombre": "Laboratorio de Integración NanoElectrónica",
+                "institucion": "Escuela de Ciencia y Tecnología, Universidad Nacional de San Martín",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "25 de Mayo y Francia",
+                "telefono": "2033-1400, int 6158/6199",
+                "email": "ecyt.line@unsam.edu.ar",
+                "sitio_web": "https://www.unsam.edu.ar/escuelas/ecyt/laboratorios/line.php"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.39872619545814,
+                    -34.72510402979206
+                ]
+            },
+            "properties": {
+                "nombre": "INSTITUTO NACIONAL DE MEDICINA AERONAUTICA Y ESPACIAL",
+                "institucion": "FUERZA AEREA ARGENTINA",
+                "provincia": "CABA",
+                "direccion": "Av. Belisario Roldan 4651",
+                "telefono": "0114514-1557",
+                "email": "inmae.investigaciones@gmail.com",
+                "sitio_web": "inmae.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.555242059988856,
+                    -34.74090505871236
+                ]
+            },
+            "properties": {
+                "nombre": "Instituto Nacional de Medicina Aeronautica y Espacial",
+                "institucion": "Departamento Docencia y Departamento Investigacion",
+                "provincia": "CABA",
+                "direccion": "Belisario Roldan 4651",
+                "telefono": "+5491145141557",
+                "email": "inmaedocencia@gmail.com",
+                "sitio_web": "www.inmae.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.26959466926913,
+                    -31.36632990875156
+                ]
+            },
+            "properties": {
+                "nombre": "Centro tecnológico de Arteaga",
+                "institucion": "Red Centec",
+                "provincia": "Córdoba",
+                "direccion": "Carnerillo 2275 Barrio Empalme, Córdoba Capital",
+                "telefono": 3512186693,
+                "email": "vinculacion@ctda.com.ar",
+                "sitio_web": "https://ctda.com.ar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.925895615486105,
+                    -35.174911398800376
+                ]
+            },
+            "properties": {
+                "nombre": "Innova Space",
+                "institucion": "",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Chaco 1670, Mar del Plata",
+                "telefono": "91133647098",
+                "email": "info@innova-space.com",
+                "sitio_web": "https://www.innova-space.com/en/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.922116728882365,
+                    -35.12727905488682
+                ]
+            },
+            "properties": {
+                "nombre": "Microroe Ingeniería Electrónica",
+                "institucion": "",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "117 N 408",
+                "telefono": "+5492216376950",
+                "email": "mramirez@microroe.com",
+                "sitio_web": "www.microroe.com"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.84647637660888,
+                    -31.56204633665754
+                ]
+            },
+            "properties": {
+                "nombre": "Centro Tecnológico CENTEC Rafaela",
+                "institucion": "Asociación Civil para el Desarrollo y la innovación competitiva Agencia Rafaela - ACDICAR",
+                "provincia": "Santa Fe",
+                "direccion": "Necochea 84 - Rafaela",
+                "telefono": 3492570085,
+                "email": "info@agencia.org.ar",
+                "sitio_web": "www.centecrafaela.org.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -65.26593537056576,
+                    -26.615649649308732
+                ]
+            },
+            "properties": {
+                "nombre": "Estacion Experimental Agroindustrial Obispo Colombres(EEAOC)",
+                "institucion": "Ente autarquico de la provincia de Tucuman",
+                "provincia": "Tucumán",
+                "direccion": "William Cross 3150",
+                "telefono": 3814521000,
+                "email": "gfossati@eeaoc.org.ar",
+                "sitio_web": "https://www.eeaoc.org.ar/"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.12045150137735,
+                    -35.038177815265655
+                ]
+            },
+            "properties": {
+                "nombre": "DIRECCION TECNICA DE TECNOLOGIAS DE GESTION",
+                "institucion": "INSITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Av. General Paz Nº 5445, San Martín, Buenos Aires",
+                "telefono": "0114724 6200/6300/6400",
+                "email": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.27832313786165,
+                    -31.54329746981524
+                ]
+            },
+            "properties": {
+                "nombre": "INTI Córdoba (Centro Occidental)",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "provincia": "Córdoba",
+                "direccion": "Av. Velez sarsfield 1561",
+                "telefono": "(54 351 ) 03514681662",
+                "email": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.84862096975889,
+                    -34.836650930385936
+                ]
+            },
+            "properties": {
+                "nombre": "INTI - Envases y embalajes",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "AV..GRAL PAZ 5445 EDIFICIO 48",
+                "telefono": "011 4724 6200/6300/6400",
+                "email": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.100021794976854,
+                    -34.82592437095161
+                ]
+            },
+            "properties": {
+                "nombre": "INTI Plásticos",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "Av. Gral. Paz 5445, Edificio 16, San Martin, Buenos Aires",
+                "telefono": "011 47246200/ interno 6332",
+                "email": "fnigro@inti.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/servicios-inti/plasticos"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.00813668909146,
+                    -35.111145266022525
+                ]
+            },
+            "properties": {
+                "nombre": "Departamento de Comunicaciones",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "provincia": "Buenos Aires (Provincia)",
+                "direccion": "AV. GENERAL PAZ 5445 - SAN MARTIN.- BUENOS AIRES",
+                "telefono": "011 47246200",
+                "email": "fnigro@inti.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics"
+            }
+        }
+    ]
+}
