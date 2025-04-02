@@ -7,83 +7,98 @@
     <link rel="stylesheet" href="leaflet.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        #map { height: 600px;border: 2px solid #0D47A1;  }
-        #sidebar { width: 300px; height: 600px; overflow-y: auto; float: left; padding: 10px; }
-        .lab-item { cursor: pointer; padding: 5px; border-bottom: 2px solid #000000; }
-        .lab-item:hover { background-color: #f0f0f0; }
+        body {
+            background-color: #F2F2F2;
+            color: #333;
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
 
-      body {
-    background-color: #F2F2F2; /* Gris Claro */
-    color: #333333; /* Gris Oscuro para el texto */
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+        .header {
+            background-color: #0D3B66;
+            color: #FFFFFF;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .header h2 {
+            font-size: 16px;
+            margin: 0;
+            font-weight: 300;
+        }
 
-/* Estilo para la barra de título */
-.header {
-    background-color: #0D3B66; /* Azul Oscuro */
-    color: #FFFFFF; /* Blanco */
-    padding: 20px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
+        #map {
+            height: 600px;
+            flex-grow: 1;
+            border: 2px solid #0D47A1;
+        }
 
-/* Estilos para enlaces */
-a {
-    color: #1E5A89; /* Azul Medio */
-    text-decoration: none;
-}
+        #sidebar {
+            width: 300px;
+            height: 600px;
+            overflow-y: auto;
+            padding: 10px;
+            background: #fff;
+        }
 
-a:hover {
-    color: #3A7CA5; /* Azul Claro */
-}
+        .lab-item {
+            cursor: pointer;
+            padding: 5px;
+            border-bottom: 2px solid #000;
+        }
+        .lab-item:hover {
+            background-color: #f0f0f0;
+        }
 
-/* Estilos para botones */
-button {
-    background-color: #1E5A89; /* Azul Medio */
-    color: #FFFFFF; /* Blanco */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #3A7CA5; /* Azul Claro */
-}
-
-.leaflet-popup-content {
-    font-family: 'Montserrat', sans-serif;
-    color: #000000; /* Negro */
-}
-
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                text-align: center;
+            }
+            .header img {
+                margin-bottom: 10px;
+            }
+            #sidebar {
+                width: 100%;
+                height: auto;
+                padding: 10px;
+            }
+            #map {
+                height: 400px;
+            }
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+        }
     </style>
-    
-
 </head>
 <body>
     <div class="header">
-   <div class="header-content">
-        <img src="/images/conae_logo.png" alt="Logo CONAE" class="logo">
-        <div class="title-text">
+        <img src="/images/conae_logo.png" alt="Logo CONAE">
+        <div>
             <h1>Laboratorios para uso del sector espacial</h1>
             <h2>Mapa interactivo de capacidades, infraestructura y servicios</h2>
         </div>
     </div>
-</div>
-
     
-    <div style="display: flex;">
+    <div class="container" style="display: flex;">
         <div id="sidebar"></div>
-        <div id="map" style="flex-grow: 1;"></div>
+        <div id="map"></div>
     </div>
     <script src="leaflet.js"></script>
     <script>
-
-
         var map = L.map('map').setView([-38.5, -63.5], 5);
         
         var laboratorioIcon = L.icon({
@@ -93,45 +108,42 @@ button:hover {
     //popupAnchor: [0, 0]  // Desplazamiento del popup
 });
 
-
-        // Agregar capa base sin detalles excepto provincias
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
             attribution: 'Map data &copy; OpenStreetMap contributors',
         }).addTo(map);
-        
-        // Cargar límites de provincias
+
         fetch('provincias.geojson')
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data, {
-                    style: { color: '#ffffff', weight: 1, fillColor: '#1E90FF', fillOpacity: 0.6 },
+                    style: { color: '#fff', weight: 1, fillColor: '#1E90FF', fillOpacity: 0.6 },
                     onEachFeature: function(feature, layer) {
                         layer.on('mouseover', function() { layer.setStyle({ fillColor: '#FFD700' }); });
                         layer.on('mouseout', function() { layer.setStyle({ fillColor: '#1E90FF' }); });
-                        layer.on('click',function(e){ map.fitBounds(e.target.getBounds(), { maxZoom: 10 });});
+                        layer.on('click', function(e) { map.fitBounds(e.target.getBounds(), { maxZoom: 10 }); });
                     }
-
                 }).addTo(map);
             });
-        
-        // Cargar laboratorios
+
         fetch('laboratorios.geojson')
             .then(response => response.json())
             .then(data => {
-                var markers = [];
                 var sidebar = document.getElementById('sidebar');
                 
                 data.features.forEach(feature => {
                     var props = feature.properties;
-                    var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
-                        title: props.nombre,
-                        icon: laboratorioIcon  
-                    }
+                    var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]],{icon: laboratorioIcon})
+                        .addTo(map);
 
-                    ).addTo(map);
-                    
-                    marker.bindPopup(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.provincia}`);
-                    
+                    marker.bindTooltip(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.provincia}`, { permanent: false, direction: "top", opacity: 0.9 });
+
+                    marker.on('click', function () {
+                        var popup = L.popup({ closeButton: true })
+                            .setLatLng(marker.getLatLng())
+                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.provincia}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a>`)
+                            .openOn(map);
+                    });
+
                     marker.on('mouseover', function(e) {
                         marker.openPopup();
                         marker.setIcon(L.icon({ iconUrl: '/images/iconlab_red.png', iconSize: [58, 57] }));
@@ -140,16 +152,15 @@ button:hover {
                     marker.on('mouseout', function(e) {
                         marker.closePopup();
                         marker.setIcon(L.icon({ iconUrl: '/images/iconlab_blue.png', iconSize: [58, 57] }));
-                    });
-                    
-                    markers.push(marker);
+                    }); 
+
                     
                     var item = document.createElement('div');
                     item.className = 'lab-item';
-                    item.innerHTML = `<b>${props.institucion}</b> - ${props.provincia}`;
+                    item.innerHTML = `<b>${props.nombre}</b> - ${props.institucion} -  ${props.provincia}`;
                     item.onclick = function() {
                         map.setView(marker.getLatLng(), 8);
-                        marker.openPopup();
+                        marker.fire('click');
                     };
                     sidebar.appendChild(item);
                 });
