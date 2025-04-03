@@ -1,0 +1,491 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 1,
+                "nombre": "Laboratorio de Comunicaciones Digitales",
+                "institucion": "CONICET",
+                "localizacion": "Córdoba",
+                "direccion": "Av Velez Sarsfield 2000",
+                "telefono": "+5493512446010",
+                "correo": "juanfraire@gmail.com",
+                "sitio_web": "https://fcefyn.unc.edu.ar/facultad/secretarias/investigacion-y-desarrollo/laboratorios/laboratorio-de-comunicaciones-digitales/",
+                "ensayos": " - Enlaces de comunicación del sistema: Simulación y emulación",
+                "servicios": " - Simulación y modelado por software de uso espacial: STK, software in-house - Simulación y modelado para predecir comportamiento de sistemas: STK, software in-house - Diseño de circuitos integrados (ASICs)",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.429261,
+                    -31.948569
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 2,
+                "nombre": "Departamento de Ingeniería en Telecomunicaciones",
+                "institucion": "CNEA",
+                "localizacion": "Río Negro",
+                "direccion": "Av. Bustillo 9500",
+                "telefono": "+542944445100",
+                "correo": "pcostanzo@ib.edu.ar",
+                "sitio_web": "www.ib.edu.ar",
+                "ensayos": " - Radiofrecuencia: Para subsistemas de RF, microondas y ondas milimétricas se posee capacidad de realizar estudios teóricos, diseños y modelos numéricos, fabricación de prototimos y Caracterización experimental y mediciones hasta frecuencias de 100GHz. - Óptica: Para subsistemas de fotónica, fibra óptica y fotónica integrada: se posee capacidad de realizar estudios teóricos, diseños y modelos numéricos, fabricación de prototimos y Caracterización experimental y mediciones espectrales y temporales en diferentes regiones del espectro. - Enlaces de comunicación del sistema: Para sistemasde comunicaciones cableados (cobre o fibra óptica), inalámbricos (electronicos u ópticos): se posee capacidad de realizar estudios teóricos, diseños y modelos numéricos, fabricación de prototimos y Caracterización experimental y mediciones espectrales y temporales en diferentes regiones del espectro óptico y eléctrico..",
+                "servicios": " - Fabricación de circuitos impresos: Facilidad para fabricación de PCBs - Sistemas de montaje de componentes para circuitos impresos: Sistemas de microposicionadores - Mecanizado CNC: CNC para fabricación de PCBs - Integración y montaje de subsistemas: Estacion de soldado profesional - Fabricación de instrumental óptico (ej. lentes): Capacidad de desarrollo de Instrumentación fotónica basada en fibra óptica y óptica integrada y electrónca. - Calibración y medición (metrología): Equipamientos de primer nivel hasta 100GHz de ancho de banda para medir en el tiempo o la frecuencia, con señales eléctricas y ópticas. - Desarrollo de carga útil: Desarrollo de subsistemas para satélites o estaciones terrenas. Especialidades en comunicaciones y sensores. - Microfabricación: Facilidades de la CNEA disponibles para los investigadores - Laboratorio educativo / Programa de capacitación en temática espacial: Electrónica, RF, fotónica y procesamiento de señales . - Diseño de circuitos integrados (ASICs): Circuitos integrados fotónicos - Sala Limpia: Si",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Investigadores."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.430185,
+                    -40.54533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 3,
+                "nombre": "Instituto Argentino de Radioastronomia (IAR)",
+                "institucion": "CONICET-CIC-UNLP",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Camino Gral. Belgrano Km 40 - Berazategui - Prov. de Buenos Aires - ARGENTINA",
+                "telefono": "+54-221-482-4903 |  +54-221-423-5029 | +54-221-423-5018 | +54-221-423-4971",
+                "correo": "msalibe@iar.unlp.edu.ar",
+                "sitio_web": "https://www.iar.unlp.edu.ar/",
+                "ensayos": " - Radiofrecuencia: componente, placa/cableado, subsistema, sistema - Compatibilidad electromagnética (EMI/EMC): componente, placa/cableado, subsistema, sistema (SOLO EMI) - Óptica: componente, placa, subsistema, sistema - Enlaces de comunicación del sistema: componente, placa/cableado, subsistema, sistema",
+                "servicios": " - Manufactura aditiva FDM: IMPRESORAS  DE FILAMENTOS Y DE RESINA - Fabricación de circuitos impresos: CNC Y QUIMICO - Sistemas de montaje de componentes para circuitos impresos: MANUAL - Mecanizado CNC: DE TRES EJES 0.9MX0.9MX0.3M - Integración y montaje de subsistemas: MANUAL - Calibración y medición (metrología): SISTEMAS DE ANTENAS, RF, ANALOGICOS Y DIGITALES, - Desarrollo de carga útil: RADIOMETROS, ANTENAS, CAMARAS INFRAROJAS, RADARES Y COMUNICACIONES - Desarrollo de software: SISTEMAS OPERATIVOS EN TIEMPO REAL, VXWORKS, RTEMS Y CUSTOM - Equipamiento para análisis y procesamiento de datos: DATALOGGERS, ANALIZADORES LOGICOS, OSCILOSCOPIO DE SEÑALES MIXTAS GENERADORES DE SEÑALES - Simulación y modelado por software de uso espacial: SOLIDWORKS, ALTIUM, LT SPICE,  CST.. - Validación de diseños: CAMARA ANECOICA Y CAMPOS DE ANTENAS, EQUIPAMIENTO GENERAL ELECTRONICOS - Procesamiento digital de imágenes: INVESTIGADORES ESPECIALIZADOS EN EL TEMA. - Sala Limpia: ISO8 Y MESA DE FLUJO LAMINAR ISO5,  EN UN VOLUMEN DE 190M3",
+                "sala_limpia": "ISO 8",
+                "calificaciones": "Personal calificado: PERSONAL ENTRENADO BAJO CALIFICACION NASA (VENCIDOS) - Control de calidad y de procesos: BUENAS PRACTICAS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.413004,
+                    -36.929406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 4,
+                "nombre": "Departamento Energía Solar - Area Limpia para integracion de paneles solares de uso espacial.",
+                "institucion": "COMISION NACIONAL DE ENERGIA ATOMICA",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Av. Gral Paz 1499, Villa Maipu, San Martin",
+                "telefono": 541167727559,
+                "correo": "hernansocolovsky@cnea.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/cnea/cac/energia-solar/integracion-y-ensayo-de-paneles-solares-espaciales",
+                "ensayos": " - Cámara de vacío: pequeña camara de vacio asociada a la linea de daño por radiacion del TANDAR - Cámara ambiental: pequeña camara de ciclado termico a presion atmosferica (-120°C a +150°C)",
+                "servicios": " - Integración y montaje de subsistemas: integracion electrica de paneles solares para uso espacial. - Calibración y medición (metrología): sensores de radiacion solar (coarse solar sensors) - Microfabricación: Dispositivos semiconductores basados en materiales IIV-V para uso en fotovoltaico - Desarrollo y evaluación de paneles solares y/o baterías: Desarrollo de paneles solares para uso espacial, dimensionamiento y medicion de performance mediante simulador solar. - Laboratorio educativo / Programa de capacitación en temática espacial: Laboratorio con diferentes experimentos asociados a la energía solar (uso terrestre y espacial) - Recubrimientos especiales: Realizacion de procesos de plateado electroquimico y baños electroquimicos en general - Sala Limpia: area limpia clase 10.000 (iso 7) de 200m2",
+                "sala_limpia": "ISO 7",
+                "calificaciones": "Personal calificado - Control de calidad y de procesos - Plan de mantenimiento"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.758375,
+                    -34.590835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 5,
+                "nombre": "SENyT (Sistemas Electrónicos de Navegación y Telecomunicaciones)",
+                "institucion": "Facultad de Ingeniería, Universidad Nacional de La Plata",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Calle 48 y 116, La Plata (1900)",
+                "telefono": 2215924980,
+                "correo": "senyt@ing.unlp.edu.ar",
+                "sitio_web": "https://senyt.ar/",
+                "ensayos": " - Radiofrecuencia: Placa, subsistema, sistema - Rayos X: Placa - Enlaces de comunicación del sistema: Placa, subsistema, sistema",
+                "servicios": " - Integración y montaje de subsistemas - Desarrollo de carga útil - Desarrollo de software - Simulación y modelado por software de uso espacial - Laboratorio educativo / Programa de capacitación en temática espacial - Validación de diseños - Sala Limpia",
+                "sala_limpia": "ISO 7",
+                "calificaciones": "Personal calificado: Ingenieros y técnicos con experiencia en aplicaciones aeroespaciales y con conocimiento de normas ESA/NASA - Control de calidad y de procesos: Normas ESA - Trazabilidad y control de configuración de procesos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.621645,
+                    -35.124853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 6,
+                "nombre": "Laboratorio de Microelectrónica- Depto de Electrónica-CITEDEF",
+                "institucion": "CITEDEF-Ministerio de Defensa",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Juan Bautista de la Salle 4397, Villa Martelli, B1603",
+                "telefono": "01147098156",
+                "correo": "carrieta@citedef.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/defensa/citedef",
+                "ensayos": " - Cámara de vacío: Cámara  para evaporación en  Alto Vacío  104 litros - Presión de Vacío 10^-5 mBar  . Balzers. Bomba Turbomolecular / Bomba Mecánica. - Metalografía: Microscopio Matalográfico- Reitcher.",
+                "servicios": " - Desarrollo de carga útil: Sensores de radiación gama abordables. - Recubrimientos especiales: Recubrimientos de películas delgadas para aplicaciones en Optica. Dielécricos y metales",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Personal calificado para operación y mantenimento de equipos de alto vacío."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.665237,
+                    -35.639337
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 7,
+                "nombre": "DEPARTAMENTO DE ENSAYOS AMBIENTALES",
+                "institucion": "CITEDEF",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "JUAN BAUTISTA LASALLE 4397",
+                "telefono": 47098100,
+                "correo": "RELGUL@CITEDEF.GOB.AR",
+                "sitio_web": "WWW.MINDEF.GOB.AR",
+                "ensayos": " - Choque térmico - Cámara de vacío - Cámara ambiental - Vibración - Rayos X",
+                "servicios": "S/D",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado - Plan de calibración de equipos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.466784,
+                    -36.096203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 8,
+                "nombre": "Complejo Astronómico El Leoncito (CASLEO)",
+                "institucion": "CONICET - UNLP - UNC - UNSJ",
+                "localizacion": "San Juan",
+                "direccion": "Av. España 1512 sur, casilla de correo 467, J5402DSP, San Juan, Argentina.",
+                "telefono": "+54-264-4933525",
+                "correo": "direccion@casleogov.ar",
+                "sitio_web": "https://casleo.conicet.gov.ar",
+                "ensayos": " - Cámara de vacío: Para piezas de hasta 2,15 m de diámetro.",
+                "servicios": " - Procesamiento digital de imágenes",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: 8 ingenieros (Mecánica, Electrónica, Informática, Óptica)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.446138,
+                    -31.600635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 9,
+                "nombre": "Laboratorio de Integración NanoElectrónica",
+                "institucion": "Escuela de Ciencia y Tecnología, Universidad Nacional de San Martín",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "25 de Mayo y Francia",
+                "telefono": "2033-1400, int 6158/6199",
+                "correo": "ecyt.line@unsam.edu.ar",
+                "sitio_web": "https://www.unsam.edu.ar/escuelas/ecyt/laboratorios/line.php",
+                "ensayos": " - Choque térmico: Cámara de hasta 12U - Cámara de vacío: Cámara de hasta 12U - Térmico al vacío: Cámara de hasta 12U - Vibración: Sistema de vibración ETS Solutions (hasta 500 kg) - Enlaces de comunicación del sistema: Estación terrena UHF/VHF",
+                "servicios": " - Sistemas de montaje de componentes para circuitos impresos - Mecanizado CNC - Integración y montaje de subsistemas - Desarrollo de carga útil - Desarrollo de software - Laboratorio educativo / Programa de capacitación en temática espacial - Validación de diseños - Sala Limpia",
+                "sala_limpia": "ISO 7",
+                "calificaciones": "Personal calificado"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.444608,
+                    -35.03262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 10,
+                "nombre": "INSTITUTO NACIONAL DE MEDICINA AERONAUTICA Y ESPACIAL",
+                "institucion": "FUERZA AEREA ARGENTINA",
+                "localizacion": "CABA",
+                "direccion": "Av. Belisario Roldan 4651",
+                "telefono": "0114514-1557",
+                "correo": "inmae.investigaciones@gmail.com",
+                "sitio_web": "inmae.ar",
+                "ensayos": " - Cámara de vacío: La  camara de baja presion es una de las herramientas del entrenamiento psicofisiologico a personal que realiza vuelos de gran altura, además se cuenta con otras herramientas complementarias como el sillón de barany que entrena las ilusiones que puede sufrir en desorientación espacial",
+                "servicios": " - Laboratorio educativo / Programa de capacitación en temática espacial: Formación de profesionales en la adaptación del ser humano en el espacio aéreo",
+                "sala_limpia": "S/D",
+                "calificaciones": "Personal calificado: Profesionales de la salud con especialidad en medicina aeronáutica con convenio con Universidad de Buenos Aires (UBA)"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 11,
+                "nombre": "Instituto Nacional de Medicina Aeronautica y Espacial",
+                "institucion": "Departamento Docencia y Departamento Investigacion",
+                "localizacion": "CABA",
+                "direccion": "Belisario Roldan 4651",
+                "telefono": "+5491145141557",
+                "correo": "inmaedocencia@gmail.com",
+                "sitio_web": "www.inmae.ar",
+                "ensayos": " - Cámara de vacío: Estudio y entrenamiento en hipoxia en humanos.",
+                "servicios": " - Laboratorio educativo / Programa de capacitación en temática espacial: Formación de profesionales en Medicina Aeronáutica y Espacial",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Medicos especialistas en medicina aeroespacial. Investigadores especialistas en hipoxia, estudios vestibulares y desorientación espacial. - Plan de mantenimiento: Uso y mantenimiento de cámara hipobarica."
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 12,
+                "nombre": "Centro tecnológico de Arteaga",
+                "institucion": "Red Centec",
+                "localizacion": "Córdoba",
+                "direccion": "Carnerillo 2275 Barrio Empalme, Córdoba Capital",
+                "telefono": 3512186693,
+                "correo": "vinculacion@ctda.com.ar",
+                "sitio_web": "https://ctda.com.ar/",
+                "ensayos": " - Vibración",
+                "servicios": " - Fabricación de circuitos impresos: Ofrecemos fabricación de PCBs utilizando impresión 3D para el desarrollo de prototipos funcionales con geometrías optimizadas, reduciendo costos y tiempos de producción en la validación de nuevos diseños electrónicos. - Mecanizado CNC: Disponemos de un centro de mecanizado de 5 ejes de alta precisión, ideal para la fabricación de componentes complejos con tolerancias ajustadas, aplicables a la industria aeroespacial. - Calibración y medición (metrología): Contamos con una máquina de medición por coordenadas MITUTOYO CRISTA APEX S7106, que garantiza control dimensional de alta precisión para validar componentes y asegurar su conformidad con normativas exigentes. - Laboratorio educativo / Programa de capacitación en temática espacial: Desarrollamos programas de formación en colaboración con actores del ecosistema espacial, abordando desde manufactura  hasta validación de materiales y certificaciones requeridas en la industria. - Validación de diseños: Brindamos servicios de validación mediante análisis dimensional, ensayos técnicos y optimización de manufactura, asegurando que los prototipos cumplan con los requisitos funcionales y normativos del sector aeroespacia",
+                "sala_limpia": "No",
+                "calificaciones": " - Control de calidad y de procesos: ISO 17025, acreditada por el INTI SAC"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.279236,
+                    -31.397849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 13,
+                "nombre": "Innova Space",
+                "institucion": NaN,
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Chaco 1670, Mar del Plata",
+                "telefono": "91133647098",
+                "correo": "info@innova-space.com",
+                "sitio_web": "https://www.innova-space.com/en/",
+                "ensayos": "S/D",
+                "servicios": " - Integración y montaje de subsistemas: INtegración y montaje de subsistemas de cubesats - Desarrollo de carga útil: Desarrollo de cargas útiles para cubesats - Desarrollo de software: Desarrollo de software a bordo y de software de estaciones terrenas - Simulación y modelado por software de uso espacial: Simulación y modelado de comportamientos estructurales, térmicos, sistemas espaciales, sistemas de comunicaciones - Simulación y modelado para predecir comportamiento de sistemas: Simulación y modelado de comportamientos estructurales, térmicos, sistemas espaciales, sistemas de comunicaciones - Laboratorio educativo / Programa de capacitación en temática espacial: Programas de capacitación en tecnología espacias, desarrollo de kits educativos - Sala Limpia: ISO 8, área 8m2",
+                "sala_limpia": "ISO 8",
+                "calificaciones": " - Control de calidad y de procesos: ISO 14001"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.669112,
+                    -35.97302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 14,
+                "nombre": "Microroe Ingeniería Electrónica",
+                "institucion": NaN,
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "117 N 408",
+                "telefono": "+5492216376950",
+                "correo": "mramirez@microroe.com",
+                "sitio_web": "www.microroe.com",
+                "ensayos": " - Radiofrecuencia",
+                "servicios": " - Desarrollo de carga útil: Desarrolo de sistemas de comunicaciones para satélites y vehículos lanzadores. Desarrollo de sistemas electrónicos para Radares. Diseño de sistemas de radiofrecuencia y microondas. - Simulación y modelado por software de uso espacial: Simulación y modelado de sistemas para equipo de comunicaciones. Diseños de radiofrecuencia y digital.",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Personal calificado en Radiofrecuencia."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.056931,
+                    -35.047784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 15,
+                "nombre": "Centro Tecnológico CENTEC Rafaela",
+                "institucion": "Asociación Civil para el Desarrollo y la innovación competitiva Agencia Rafaela - ACDICAR",
+                "localizacion": "Santa Fe",
+                "direccion": "Necochea 84 - Rafaela",
+                "telefono": 3492570085,
+                "correo": "info@agencia.org.ar",
+                "sitio_web": "www.centecrafaela.org.ar",
+                "ensayos": " - Rayos X: Tomografías industrial",
+                "servicios": "Manufactura aditiva por sinterizado láser (metal): Laboratorio de manufactura aditiva- Equipo EOS 290 - Manufactura aditiva FDM: Laboratorio de manufactura - FDM, Resinas y polímeros",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Formacion y experiencia en manufactura aditiva de metales (desde 2018) - Control de calidad y de procesos: ISO 9001"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -60.339048,
+                    -32.065835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 16,
+                "nombre": "Estacion Experimental Agroindustrial Obispo Colombres(EEAOC)",
+                "institucion": "Ente autarquico de la provincia de Tucuman",
+                "localizacion": "Tucumán",
+                "direccion": "William Cross 3150",
+                "telefono": 3814521000,
+                "correo": "gfossati@eeaoc.org.ar",
+                "sitio_web": "https://www.eeaoc.org.ar/",
+                "ensayos": "S/D",
+                "servicios": " - Desarrollo de software",
+                "sala_limpia": "No",
+                "calificaciones": "S/D"
+            },
+            "geometry": null
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 17,
+                "nombre": "DIRECCION TECNICA DE TECNOLOGIAS DE GESTION",
+                "institucion": "INSITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Av. General Paz Nº 5445, San Martín, Buenos Aires",
+                "telefono": "0114724 6200/6300/6400",
+                "correo": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar",
+                "ensayos": "S/D",
+                "servicios": " - Laboratorio educativo / Programa de capacitación en temática espacial",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado: Asesores certificados en Tecnologias de Gestión con orientación en producción, según norma ISO 17024"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.579982,
+                    -37.50637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 18,
+                "nombre": "INTI Córdoba (Centro Occidental)",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "localizacion": "Córdoba",
+                "direccion": "Av. Velez sarsfield 1561",
+                "telefono": "(54 351 ) 03514681662",
+                "correo": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar",
+                "ensayos": " - Cámara de vacío: Calibración de Instrumentos de medición de vacío - Metalografía: Análisis metalográfico",
+                "servicios": " - Mecanizado CNC - Calibración y medición (metrología) - Desarrollo de software - Microscopía/ Espectroscopía para análisis de materiales",
+                "sala_limpia": "No",
+                "calificaciones": " - Plan de calibración de equipos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.018876,
+                    -31.537886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 19,
+                "nombre": "INTI - Envases y embalajes",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "AV..GRAL PAZ 5445 EDIFICIO 48",
+                "telefono": "011 4724 6200/6300/6400",
+                "correo": "fnigro@inti.gob.ar",
+                "sitio_web": "www.inti.gob.ar",
+                "ensayos": " - Cámara ambiental: Cámara de baja temperatura (constante), marca Sanshu, -20 °C, de medidas: ancho 2,5 m, largo 2,5 m, alto 2,5 m. Cámara de ciclado térmico, marca Angelantoni, -30 °C a 80 °C, con control de humedad entre 10% HR  a 95% HR, de medidas: ancho 2,5 m, largo 2,5 m, alto 2,5 m - Vibración: Equipo de vibración marca Shinken, modelo G-9210. Dirección de la vibración: horizontal y vertical. Rango de frecuencia de 3 Hz a 1000 Hz. Capacidad de carga máxima: 300 kg. Aceleración máxima: depende de la señal y la masa de la muestra a ensayar. Tipo de vibración de ensayo: senoidal y aleatoria. Equipo de vibración marca Shinken, modelo G-9220. Dirección: vertical. Rango de frecuencia de 3 Hz a 1000 Hz. Capacidad de carga máxima: 750 kg. Aceleración máxima: depende de la señal y la masa de la muestra a ensayar. Tipo de vibración de ensayo: senoidal y aleatoria.",
+                "servicios": "S/D",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado - Plan de mantenimiento"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -59.260744,
+                    -36.427126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 20,
+                "nombre": "INTI Plásticos",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "Av. Gral. Paz 5445, Edificio 16, San Martin, Buenos Aires",
+                "telefono": "011 47246200/ interno 6332",
+                "correo": "fnigro@inti.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/servicios-inti/plasticos",
+                "ensayos": NaN,
+                "servicios": " - Microscopía/ Espectroscopía para análisis de materiales: / Espectroscopía para análisis de materiales Identificación de polímeros principales por espectroscopía infrarroja.",
+                "sala_limpia": "No",
+                "calificaciones": "Personal calificado"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -62.426337,
+                    -36.863886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "registro": 21,
+                "nombre": "Departamento de Comunicaciones",
+                "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+                "localizacion": "Buenos Aires (Provincia)",
+                "direccion": "AV. GENERAL PAZ 5445 - SAN MARTIN.- BUENOS AIRES",
+                "telefono": "011 47246200",
+                "correo": "fnigro@inti.gob.ar",
+                "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics",
+                "ensayos": NaN,
+                "servicios": " - Calibración y medición (metrología): Servicio de mediciones solamente. Cuenta con analizador de señales hasta 45GHz y generador de RF hasta 20GHz. - Desarrollo de software: Experiencia en sistemas de comunicaciones digitales y radios definidas por software (SDR) - Simulación y modelado para predecir comportamiento de sistemas: Experiencia en el uso de ANSYS electronic design suite y ADS - Procesamiento digital de imágenes: Capacidades en procesamiento de imágenes en python",
+                "sala_limpia": "No",
+                "calificaciones": "S/D"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.084142,
+                    -35.007329
+                ]
+            }
+        }
+    ]
+}
