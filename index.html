@@ -140,7 +140,7 @@
                     marker.on('click', function () {
                         var popup = L.popup({ closeButton: true })
                             .setLatLng(marker.getLatLng())
-                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a><br>${props.ensayos}<br>${props.servicios}<br>${props.sala_limpia}<br>${props.calificaciones}`)
+                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a><br><b>Ensayos:</b> ${props.ensayos}<br><b>Servicios:</b> ${props.servicios}<br><b>Sala limpia:</b> ${props.sala_limpia}<br><b>Calificaciones:</b> ${props.calificaciones}`)
                             .openOn(map);
                     });
 
