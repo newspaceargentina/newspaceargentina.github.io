@@ -505,5 +505,26 @@
                 ]
             }
         }
+{
+  "type": "Feature",
+  "properties": {
+    "nombre": "CEATSA",
+    "institucion": "INVAP / ARSAT",
+    "localizacion": "San Carlos de Bariloche, Río Negro, Argentina",
+    "direccion": "Av. Cmte. Luis Piedrabuena 4950, San Carlos de Bariloche, Río Negro",
+    "telefono": "+54 294 4409399 / 4409300",
+    "email": "info@ceatsa.com.ar",
+    "sitio_web": "https://www.ceatsa.com.ar/",
+    "ensayos": "Cámara Termo Vacío, Ensayos Mecánicos, Ensayos de Vibración, Ensayos Acústicos, Ensayos de RF, EMI/EMC",
+    "servicios": "Calibración y Metrología, Pruebas de compatibilidad electromagnética, Medición de radiofrecuencia",
+    "sala_limpia": "Cámara anecoica para ensayos de radiofrecuencia y compatibilidad electromagnética",
+    "calificaciones": "Pruebas y certificaciones para misiones espaciales y telecomunicaciones"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.2895, -41.1510]
+  }
+}
+
     ]
 }
