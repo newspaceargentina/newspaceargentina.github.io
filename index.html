@@ -137,12 +137,23 @@
 
                     marker.bindTooltip(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}`, { permanent: false, direction: "top", opacity: 0.9 });
 
-                    marker.on('click', function () {
-                        var popup = L.popup({ closeButton: true })
-                            .setLatLng(marker.getLatLng())
-                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a><br><b>Ensayos:</b> ${props.ensayos}<br><b>Servicios:</b> ${props.servicios}<br><b>Sala limpia:</b> ${props.sala_limpia}<br><b>Calificaciones:</b> ${props.calificaciones}`)
-                            .openOn(map);
-                    });
+                   var popup = L.popup({ closeButton: true })
+    .setLatLng(marker.getLatLng())
+    .setContent(`
+        <div style="max-height: 300px; overflow-y: auto; padding-right: 10px;">
+            <b>${props.nombre}</b><br>
+            ${props.institucion}<br>
+            ${props.localizacion}<br>
+            ${props.direccion}<br>
+            ${props.telefono}<br>
+            ${props.email}<br>
+            <a href='${props.sitio_web}' target='_blank'>Sitio web</a><br>
+            <b>Ensayos:</b> ${props.ensayos}<br>
+            <b>Servicios:</b> ${props.servicios}<br>
+            <b>Sala limpia:</b> ${props.sala_limpia}<br>
+            <b>Calificaciones:</b> ${props.calificaciones}
+        </div>`)
+    .openOn(map);
 
                     marker.on('mouseover', function(e) {
                         marker.openPopup();
