@@ -153,8 +153,8 @@
             <b>Sala limpia:</b> ${props.sala_limpia}<br>
             <b>Calificaciones:</b> ${props.calificaciones}
         </div>`)
-    .openOn(map);   });
-
+    .openOn(map);   
+            
                     marker.on('mouseover', function(e) {
                         marker.openPopup();
                         marker.setIcon(L.icon({ iconUrl: '/images/iconlab_red.png', iconSize: [58, 57] }));
