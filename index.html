@@ -118,7 +118,7 @@
                 L.geoJSON(data, {
                     style: { color: '#fff', weight: 1, fillColor: '#1E90FF', fillOpacity: 0.6 },
                     onEachFeature: function(feature, layer) {
-                        layer.on('mouseover', function() { layer.setStyle({ fillColor: '#FFD700' }); });
+                        layer.on('mouseover', function() { layer.setStyle({ fillColor: '#002147' }); });
                         layer.on('mouseout', function() { layer.setStyle({ fillColor: '#1E90FF' }); });
                         layer.on('click', function(e) { map.fitBounds(e.target.getBounds(), { maxZoom: 10 }); });
                     }
