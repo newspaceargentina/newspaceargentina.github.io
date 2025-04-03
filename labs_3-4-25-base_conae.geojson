@@ -532,30 +532,6 @@
         {
             "type": "Feature",
             "properties": {
-                "registro": 23,
-                "nombre": "CTA",
-                "institucion": "UNLP",
-                "localizacion": "Buenos Aires",
-                "direccion": "Sin dato",
-                "telefono": "Sin dato",
-                "correo": "cta@ing.unlp.edu.ar",
-                "sitio_web": "Sin dato",
-                "ensayos": "Shakers: 35kN; 10kN; Cámara Ambiental: - otros: - maquina universal de ensayos instron \nservohidraulica (250 kn con cámara térmica \nde -100°c a 350°c)\n- dos bases sismicas (4x12 mts y 3x6 mts)\n- 2 bombas hidrualicas (210 bar, 300 lt/min y 100 lts/min)\n- 20 actuadores servohidraulicos de rango 15 kn a 150 kn)",
-                "servicios": "",
-                "sala_limpia": "x",
-                "calificaciones": "Sin dato"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -57.055171,
-                    -36.468161
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "registro": 24,
                 "nombre": "Micro y ""otecnologías",
                 "institucion": "INTI",
