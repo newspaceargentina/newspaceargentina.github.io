@@ -294,7 +294,7 @@
             "properties": {
                 "registro": 13,
                 "nombre": "Innova Space",
-                "institucion": NaN,
+                "institucion": "",
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "Chaco 1670, Mar del Plata",
                 "telefono": "91133647098",
@@ -318,7 +318,7 @@
             "properties": {
                 "registro": 14,
                 "nombre": "Microroe Ingeniería Electrónica",
-                "institucion": NaN,
+                "institucion": "",
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "117 N 408",
                 "telefono": "+5492216376950",
@@ -468,7 +468,7 @@
                 "telefono": "011 47246200/ interno 6332",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/plasticos",
-                "ensayos": NaN,
+                "ensayos": "",
                 "servicios": " - Microscopía/ Espectroscopía para análisis de materiales: / Espectroscopía para análisis de materiales Identificación de polímeros principales por espectroscopía infrarroja.",
                 "sala_limpia": "No",
                 "calificaciones": "Personal calificado"
@@ -492,7 +492,7 @@
                 "telefono": "011 47246200",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics",
-                "ensayos": NaN,
+                "ensayos": "",
                 "servicios": " - Calibración y medición (metrología): Servicio de mediciones solamente. Cuenta con analizador de señales hasta 45GHz y generador de RF hasta 20GHz. - Desarrollo de software: Experiencia en sistemas de comunicaciones digitales y radios definidas por software (SDR) - Simulación y modelado para predecir comportamiento de sistemas: Experiencia en el uso de ANSYS electronic design suite y ADS - Procesamiento digital de imágenes: Capacidades en procesamiento de imágenes en python",
                 "sala_limpia": "No",
                 "calificaciones": "S/D"
