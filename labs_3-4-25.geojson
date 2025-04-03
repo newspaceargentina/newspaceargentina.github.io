@@ -20,8 +20,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -64.429261,
-                    -31.948569
+                    -64.286412,
+                    -32.001546
                 ]
             }
         },
@@ -44,8 +44,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -69.430185,
-                    -40.54533
+                    -67.227148,
+                    -38.990404
                 ]
             }
         },
@@ -68,8 +68,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -57.413004,
-                    -36.929406
+                    -59.685636,
+                    -38.079798
                 ]
             }
         },
@@ -92,8 +92,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -58.758375,
-                    -34.590835
+                    -59.948601,
+                    -36.343122
                 ]
             }
         },
@@ -116,8 +116,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -58.621645,
-                    -35.124853
+                    -59.118187,
+                    -34.625789
                 ]
             }
         },
@@ -140,8 +140,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -61.665237,
-                    -35.639337
+                    -58.109396,
+                    -38.498249
                 ]
             }
         },
@@ -164,8 +164,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -59.466784,
-                    -36.096203
+                    -60.003515,
+                    -38.164293
                 ]
             }
         },
@@ -188,8 +188,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -68.446138,
-                    -31.600635
+                    -68.554707,
+                    -31.566226
                 ]
             }
         },
@@ -212,8 +212,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -62.444608,
-                    -35.03262
+                    -60.16775,
+                    -36.212151
                 ]
             }
         },
@@ -233,7 +233,13 @@
                 "sala_limpia": "S/D",
                 "calificaciones": "Personal calificado: Profesionales de la salud con especialidad en medicina aeronáutica con convenio con Universidad de Buenos Aires (UBA)"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.059951,
+                    -31.263935
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -251,7 +257,13 @@
                 "sala_limpia": "No",
                 "calificaciones": "Personal calificado: Medicos especialistas en medicina aeroespacial. Investigadores especialistas en hipoxia, estudios vestibulares y desorientación espacial. - Plan de mantenimiento: Uso y mantenimiento de cámara hipobarica."
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.901211,
+                    -31.378042
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -272,8 +284,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -64.279236,
-                    -31.397849
+                    -63.863158,
+                    -31.822785
                 ]
             }
         },
@@ -282,7 +294,7 @@
             "properties": {
                 "registro": 13,
                 "nombre": "Innova Space",
-                "institucion": "",
+                "institucion": NaN,
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "Chaco 1670, Mar del Plata",
                 "telefono": "91133647098",
@@ -296,8 +308,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -60.669112,
-                    -35.97302
+                    -61.658456,
+                    -38.048314
                 ]
             }
         },
@@ -306,7 +318,7 @@
             "properties": {
                 "registro": 14,
                 "nombre": "Microroe Ingeniería Electrónica",
-                "institucion": "",
+                "institucion": NaN,
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "117 N 408",
                 "telefono": "+5492216376950",
@@ -320,8 +332,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -59.056931,
-                    -35.047784
+                    -60.474761,
+                    -34.555647
                 ]
             }
         },
@@ -344,8 +356,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -60.339048,
-                    -32.065835
+                    -59.912497,
+                    -31.500648
                 ]
             }
         },
@@ -365,7 +377,13 @@
                 "sala_limpia": "No",
                 "calificaciones": "S/D"
             },
-            "geometry": null
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -64.910059,
+                    -26.865215
+                ]
+            }
         },
         {
             "type": "Feature",
@@ -386,8 +404,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -57.579982,
-                    -37.50637
+                    -58.11441,
+                    -35.633095
                 ]
             }
         },
@@ -410,8 +428,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -64.018876,
-                    -31.537886
+                    -64.398036,
+                    -31.235268
                 ]
             }
         },
@@ -434,8 +452,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -59.260744,
-                    -36.427126
+                    -59.664638,
+                    -37.318511
                 ]
             }
         },
@@ -450,7 +468,7 @@
                 "telefono": "011 47246200/ interno 6332",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/plasticos",
-                "ensayos": "",
+                "ensayos": NaN,
                 "servicios": " - Microscopía/ Espectroscopía para análisis de materiales: / Espectroscopía para análisis de materiales Identificación de polímeros principales por espectroscopía infrarroja.",
                 "sala_limpia": "No",
                 "calificaciones": "Personal calificado"
@@ -458,8 +476,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -62.426337,
-                    -36.863886
+                    -59.36996,
+                    -37.437915
                 ]
             }
         },
@@ -474,7 +492,7 @@
                 "telefono": "011 47246200",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics",
-                "ensayos": "",
+                "ensayos": NaN,
                 "servicios": " - Calibración y medición (metrología): Servicio de mediciones solamente. Cuenta con analizador de señales hasta 45GHz y generador de RF hasta 20GHz. - Desarrollo de software: Experiencia en sistemas de comunicaciones digitales y radios definidas por software (SDR) - Simulación y modelado para predecir comportamiento de sistemas: Experiencia en el uso de ANSYS electronic design suite y ADS - Procesamiento digital de imágenes: Capacidades en procesamiento de imágenes en python",
                 "sala_limpia": "No",
                 "calificaciones": "S/D"
@@ -482,8 +500,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -61.084142,
-                    -35.007329
+                    -57.621017,
+                    -37.680455
                 ]
             }
         }
