@@ -125,7 +125,7 @@
                 }).addTo(map);
             });
 
-        fetch('laboratorios.geojson')
+        fetch('labs_3-4-25.geojson')
             .then(response => response.json())
             .then(data => {
                 var sidebar = document.getElementById('sidebar');
@@ -135,12 +135,12 @@
                     var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]],{icon: laboratorioIcon})
                         .addTo(map);
 
-                    marker.bindTooltip(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.provincia}`, { permanent: false, direction: "top", opacity: 0.9 });
+                    marker.bindTooltip(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}`, { permanent: false, direction: "top", opacity: 0.9 });
 
                     marker.on('click', function () {
                         var popup = L.popup({ closeButton: true })
                             .setLatLng(marker.getLatLng())
-                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.provincia}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a>`)
+                            .setContent(`<b>${props.nombre}</b><br>${props.institucion}<br>${props.localizacion}<br>${props.direccion}<br>${props.telefono}<br>${props.email}<br><a href='${props.sitio_web}' target='_blank'>Sitio web</a><br>${props.ensayos}<br>${props.servicios}<br>${props.sala_limpia}<br>${props.calificaciones}`)
                             .openOn(map);
                     });
 
@@ -157,7 +157,7 @@
                     
                     var item = document.createElement('div');
                     item.className = 'lab-item';
-                    item.innerHTML = `<b>${props.nombre}</b> - ${props.institucion} -  ${props.provincia}`;
+                    item.innerHTML = `<b>${props.nombre}</b> - ${props.institucion} -  ${props.localizacion}`;
                     item.onclick = function() {
                         map.setView(marker.getLatLng(), 8);
                         marker.fire('click');
