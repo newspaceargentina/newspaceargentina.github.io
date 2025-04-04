@@ -83,14 +83,56 @@
             }
         }
     </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
+    
+     <script>
+  function actualizarEstadisticas(features) {
+    const total = features.length;
+    const conSalaLimpia = features.filter(f => f.properties.sala_limpia !== "No" ).length;
+    const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
+    const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
+    const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
+
+    document.getElementById("totalLabs").textContent = total;
+    document.getElementById("labsSalaLimpia").textContent = ((conSalaLimpia / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsEnsayos").textContent = ((conEnsayos / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsServicios").textContent = ((conServicios / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsCalificaciones").textContent = ((conCalificaciones / total) * 100).toFixed(1) + "%";
+
+    // Pie chart
+    new Chart(document.getElementById("labsPieChart"), {
+      type: 'pie',
+      data: {
+        labels: ["Sala Limpia", "Ensayos", "Servicios", "Calificaciones"],
+        datasets: [{
+          label: "Distribución de Capacidades",
+          data: [conSalaLimpia, conEnsayos, conServicios, conCalificaciones],
+          backgroundColor: ["#2980b9", "#27ae60", "#f39c12", "#8e44ad"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: { display: true, text: 'Distribución de Capacidades en los Laboratorios' }
+        }
+      }
+    });
+  }
+
+  // Cuando cargues el GeoJSON en tu app, llamá a esto:
+  // actualizarEstadisticas(geojson.features);
+</script>
     <div class="header">
         <img src="/images/conae_logo.png" alt="Logo CONAE">
         <div>
             <h1>Laboratorios para uso del sector espacial</h1>
             <h2>Mapa interactivo de capacidades, infraestructura y servicios</h2>
-            <h3>Prueba piloto - Maxi Ozono SICYT</h3>
+            <h3>Secretaría de Innovación, Ciencia y Tecnología</h3>
         </div>
     </div>
     
@@ -177,7 +219,40 @@ marker.on('click', function () {
                     };
                     sidebar.appendChild(item);
                 });
-            });
+            }
+                     actualizarEstadisticas(geojson.features);
+
+                 );
     </script>
+
+
+   
+
+    <!-- Estadísticas de laboratorios - estilo simple y claro -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js/dist/Chart.min.css">
+
+<div class="stat-panel" style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 1.5rem 0;">
+  <div class="stat-card" style="flex: 1; min-width: 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; text-align: center; background-color: #f9f9f9;">
+    <h3>Total de Laboratorios</h3>
+    <p id="totalLabs" style="font-size: 1.5rem; font-weight: bold; color: #2c3e50;">0</p>
+  </div>
+  <div class="stat-card" style="flex: 1; min-width: 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; text-align: center; background-color: #f9f9f9;">
+    <h3>Con Sala Limpia</h3>
+    <p id="labsSalaLimpia" style="font-size: 1.5rem; font-weight: bold; color: #2980b9;">0%</p>
+  </div>
+  <div class="stat-card" style="flex: 1; min-width: 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; text-align: center; background-color: #f9f9f9;">
+    <h3>Con Ensayos</h3>
+    <p id="labsEnsayos" style="font-size: 1.5rem; font-weight: bold; color: #27ae60;">0%</p>
+  </div>
+  <div class="stat-card" style="flex: 1; min-width: 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; text-align: center; background-color: #f9f9f9;">
+    <h3>Con Servicios</h3>
+    <p id="labsServicios" style="font-size: 1.5rem; font-weight: bold; color: #f39c12;">0%</p>
+  </div>
+  <div class="stat-card" style="flex: 1; min-width: 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 8px; text-align: center; background-color: #f9f9f9;">
+    <h3>Con Calificaciones</h3>
+    <p id="labsCalificaciones" style="font-size: 1.5rem; font-weight: bold; color: #8e44ad;">0%</p>
+  </div>
+</div>
+
 </body>
 </html>
