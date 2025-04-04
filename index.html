@@ -116,7 +116,7 @@
         
         var laboratorioIcon = L.icon({
     iconUrl: '/images/iconlab_blue.png',  // Ruta a tu icono
-    iconSize: [58, 57],  // Tamaño en píxeles [ancho, alto]
+    iconSize: [29, 28],  // Tamaño en píxeles [ancho, alto]
     //iconAnchor: [29, 57],  // Punto de anclaje (centro abajo)
     //popupAnchor: [0, 0]  // Desplazamiento del popup
 });
@@ -179,12 +179,12 @@ marker.on('click', function () {
             
                     marker.on('mouseover', function(e) {
                         marker.openPopup();
-                        marker.setIcon(L.icon({ iconUrl: '/images/iconlab_red.png', iconSize: [58, 57] }));
+                        marker.setIcon(L.icon({ iconUrl: '/images/iconlab_red.png', iconSize: [29, 28] }));
                     });
                     
                     marker.on('mouseout', function(e) {
                         marker.closePopup();
-                        marker.setIcon(L.icon({ iconUrl: '/images/iconlab_blue.png', iconSize: [58, 57] }));
+                        marker.setIcon(L.icon({ iconUrl: '/images/iconlab_blue.png', iconSize: [29, 28] }));
                     }); 
 
                     
