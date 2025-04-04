@@ -15,28 +15,31 @@
             padding: 0;
         }
 
-        .header {
-            background-color: #0D3B66;
-            color: #FFFFFF;
-            padding: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-        .header img {
-            height: 50px;
-            margin-right: 15px;
-        }
-        .header h1 {
-            font-size: 24px;
-            margin: 0;
-        }
-        .header h2 {
-            font-size: 16px;
-            margin: 0;
-            font-weight: 300;
-        }
+      .header {
+    background-color: #0D3B66;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    display: block; /* ✅ Esto reemplaza el flex horizontal */
+}
+
+.text-header {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.logo-container img {
+    height: 50px; /* Ajustá según el tamaño deseado */
+    object-fit: contain;
+}
 
         #map {
             height: 600px;
@@ -99,11 +102,17 @@
   
     <div class="header">
         <img src="/images/conae_logo.png" alt="Logo CONAE">
-        <div>
+        <div class="text-header">
             <h1>Laboratorios para uso del sector espacial</h1>
             <h2>Mapa interactivo de capacidades, infraestructura y servicios</h2>
-            <h3>Secretaría de Innovación, Ciencia y Tecnología</h3>
+            
         </div>
+
+        <div class="logo-container">
+      <img src="/images/conae_logo.png" alt="Logo CONAE">
+      <img src="/images/jgm_sicyt.png" alt="Logo JGM-SICYT">
+    </div>
+        
     </div>
     
     <div class="container" style="display: flex;">
@@ -243,7 +252,7 @@ marker.on('click', function () {
 </div>
 
    
-    <p>2025 maqueta by Maximiliano Ozono</p>
+
 
         <script>
 function actualizarEstadisticas(features) {
@@ -359,5 +368,6 @@ function actualizarEstadisticas(features) {
     </a> otro.
   </p>
 </div>
+        <p>2025 maqueta by Maximiliano Ozono</p>
 </body>
 </html>
