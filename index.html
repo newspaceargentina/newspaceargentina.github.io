@@ -153,7 +153,7 @@ marker.on('click', function () {
             ${props.localizacion}<br>
             ${props.direccion}<br>
             ${props.telefono}<br>
-            ${props.email}<br>
+            ${props.correo}<br>
             <a href='${props.sitio_web}' target='_blank'>Sitio web</a><br>
             <b>Ensayos:</b> ${props.ensayos}<br>
             <b>Servicios:</b> ${props.servicios}<br>
@@ -278,7 +278,7 @@ function actualizarEstadisticas(features) {
   });
 }
 
-
+ actualizarEstadisticas(data.features); //aca puse esta linea
 </script>
     
 </body>
