@@ -233,10 +233,12 @@ marker.on('click', function () {
     <p id="labsCalificaciones" style="font-size: 1.5rem; font-weight: bold; color: #8e44ad;">0%</p>
   </div>
 </div>
-    <canvas id="labsPieChart" width="400" height="400" style="margin: 2rem auto;"></canvas>
-<div style="max-width: 500px; margin: auto;">
-  <canvas id="labsBarChart" height="300"></canvas>
+  
+ <div id="chartsContainer" style="display: flex; gap: 20px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+  <canvas id="labsPieChart" width="300" height="300"></canvas>
+  <canvas id="labsBarChart" width="400" height="300"></canvas>
 </div>
+   
     <p>2025 maqueta by Maximiliano Ozono</p>
 
         <script>
