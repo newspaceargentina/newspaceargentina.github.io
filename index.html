@@ -24,18 +24,10 @@
             justify-content: center;
             text-align: center;
         }
-  .logo-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.logo-container img {
-  height: 60px; /* Ajustá según lo que necesites */
-  object-fit: contain;
-}
+        .header img {
+            height: 50px;
+            margin-right: 15px;
+        }
         .header h1 {
             font-size: 24px;
             margin: 0;
@@ -78,20 +70,16 @@
                 margin-bottom: 10px;
             }
             #sidebar {
-                width: 300px; /* Ajustá según tu necesidad */
-    padding: 10px;
-    overflow-y: auto;
-    background-color: #f8f8f8;
-    border-right: 1px solid #ccc;
+                width: 100%;
+                height: auto;
+                padding: 10px;
             }
             #map {
-                  flex-grow: 1;
-                height: 100%;
+                height: 400px;
             }
             .container {
                 display: flex;
-                flex-direction: row;
-                height: calc(100vh - 150px);
+                flex-direction: column;
             }
         }
 
@@ -109,21 +97,19 @@
 <body>
     
   
-  <div class="header">
-    <div class="header-text">
-        <h1>Laboratorios para uso del sector espacial</h1>
-        <h2>Mapa interactivo de capacidades, infraestructura y servicios</h2>
-     
-     <div class="logo-container">
-      <img src="/images/conae_logo.png" alt="Logo CONAE">
-      <img src="/images/Firma_JGM-SICYT.png" alt="Logo JGM-SICYT">
+    <div class="header">
+        <img src="/images/conae_logo.png" alt="Logo CONAE">
+        <div>
+            <h1>Laboratorios para uso del sector espacial</h1>
+            <h2>Mapa interactivo de capacidades, infraestructura y servicios</h2>
+            <h3>Secretaría de Innovación, Ciencia y Tecnología</h3>
+        </div>
     </div>
-
-<div class="container">
-    <div id="sidebar"></div>
-    <div id="map"></div>
-</div>
-
+    
+    <div class="container" style="display: flex;">
+        <div id="sidebar"></div>
+        <div id="map"></div>
+    </div>
     <script src="leaflet.js"></script>
     <script>
         var map = L.map('map').setView([-38.5, -63.5], 5);
@@ -257,7 +243,7 @@ marker.on('click', function () {
 </div>
 
    
-
+    <p>2025 maqueta by Maximiliano Ozono</p>
 
         <script>
 function actualizarEstadisticas(features) {
@@ -373,6 +359,5 @@ function actualizarEstadisticas(features) {
     </a> otro.
   </p>
 </div>
-        <p>2025 maqueta by Maximiliano Ozono</p>
 </body>
 </html>
