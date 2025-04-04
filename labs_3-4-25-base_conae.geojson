@@ -220,30 +220,6 @@
         {
             "type": "Feature",
             "properties": {
-                "registro": 10,
-                "nombre": "INSTITUTO NACIONAL DE MEDICINA AERONAUTICA Y ESPACIAL",
-                "institucion": "FUERZA AEREA ARGENTINA",
-                "localizacion": "CABA",
-                "direccion": "Av. Belisario Roldan 4651",
-                "telefono": "0114514-1557",
-                "correo": "inmae.investigaciones@gmail.com",
-                "sitio_web": "inmae.ar",
-                "ensayos": " - Cámara de vacío: La  camara de baja presion es una de las herramientas del entrenamiento psicofisiologico a personal que realiza vuelos de gran altura, además se cuenta con otras herramientas complementarias como el sillón de barany que entrena las ilusiones que puede sufrir en desorientación espacial",
-                "servicios": " - Laboratorio educativo / Programa de capacitación en temática espacial: Formación de profesionales en la adaptación del ser humano en el espacio aéreo",
-                "sala_limpia": "S/D",
-                "calificaciones": "Personal calificado: Profesionales de la salud con especialidad en medicina aeronáutica con convenio con Universidad de Buenos Aires (UBA)"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -63.887503,
-                    -31.562275
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "registro": 11,
                 "nombre": "Instituto Nacional de Medicina Aeronautica y Espacial",
                 "institucion": "Departamento Docencia y Departamento Investigacion",
@@ -251,7 +227,7 @@
                 "direccion": "Belisario Roldan 4651",
                 "telefono": "+5491145141557",
                 "correo": "inmaedocencia@gmail.com",
-                "sitio_web": "www.inmae.ar",
+                "sitio_web": "httsp://www.inmae.ar",
                 "ensayos": " - Cámara de vacío: Estudio y entrenamiento en hipoxia en humanos.",
                 "servicios": " - Laboratorio educativo / Programa de capacitación en temática espacial: Formación de profesionales en Medicina Aeronáutica y Espacial",
                 "sala_limpia": "No",
@@ -260,8 +236,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -64.464501,
-                    -31.361535
+                    -58.374501,
+                    -34.61535
                 ]
             }
         },
@@ -637,7 +613,7 @@
                 "correo": "info.labs@conae.gov.ar",
                 "sitio_web": "https://www.conae.gob.ar",
                 "ensayos": "Payloads development: - Shakers: 105kN; 35.6kN; 26.7kN; Metrología: - Recubrimientos Especiales: - Cámara Ambiental: - Thermal Vac: - Cámara Anecoide: - EMI/EMC: - Espacialización y Aseguramiento: - otros: - ensayos de corrosión acelerada por niebla salina\n- sistema de inspección mediante rayos x",
-                "servicios": "Laboratorio de Microscopía: - Diseño y Prototipado de \nPCB: x",
+                "servicios": "Laboratorio de Microscopía - Diseño y Prototipado de PCB",
                 "sala_limpia": "ISO7; ISO 8",
                 "calificaciones": "Sin dato"
             },
@@ -849,7 +825,7 @@
     "localizacion": "San Carlos de Bariloche, Río Negro, Argentina",
     "direccion": "Av. Cmte. Luis Piedrabuena 4950, San Carlos de Bariloche, Río Negro",
     "telefono": "+54 294 4409399 / 4409300",
-    "email": "info@ceatsa.com.ar",
+    "correo": "info@ceatsa.com.ar",
     "sitio_web": "https://www.ceatsa.com.ar/",
     "ensayos": "Cámara Termo Vacío, Ensayos Mecánicos, Ensayos de Vibración, Ensayos Acústicos, Ensayos de RF, EMI/EMC",
     "servicios": "Calibración y Metrología, Pruebas de compatibilidad electromagnética, Medición de radiofrecuencia",
@@ -859,6 +835,74 @@
   "geometry": {
     "type": "Point",
     "coordinates": [-71.2895, -41.1510]
+  }
+},
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "registro": 22,
+        "nombre": "Departamento de Compatibilidad Electromagnética",
+        "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+        "localizacion": "Buenos Aires (Provincia)",
+        "direccion": "Av. General Paz 5445 , San Martin, Buenos Aires",
+        "telefono": "011 47246369",
+        "correo": "fnigro@inti.gob.ar",
+        "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics",
+        "ensayos": "Compatibilidad electromagnética (EMI/EMC): No posee alcance en MIL - STD",
+        "servicios": "Calibración y medición (metrología): Mediciones en EMC",
+        "sala_limpia": "No",
+        "calificaciones": "S/D"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-58.5203, -34.5881]
+      }
+    }
+  ]
+},
+{
+  "type": "Feature",
+  "properties": {
+    "registro": 23,
+    "nombre": "Dirección Técnica de Materiales Avanzados",
+    "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+    "localizacion": "Buenos Aires (Provincia)",
+    "direccion": "Av. General Paz 5445, San Martin, Buenos Aires",
+    "telefono": "011 47246333",
+    "correo": "fnigro@gmail.com",
+    "sitio_web": "https://www.argentina.gob.ar/inti",
+    "ensayos": "S/D",
+    "servicios": "S/D",
+    "sala_limpia": "No",
+    "calificaciones": "S/D"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.5294, -34.5927]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "registro": 24,
+    "nombre": "Centro de Micro y Nanotecnologías del Bicentenario",
+    "institucion": "INSTITUTO NACIONAL DE TECNOLOGIA INDUSTRIAL - INTI",
+    "localizacion": "Buenos Aires (Provincia)",
+    "direccion": "Avenida General Paz 5445, San Martin , Buenos Aires",
+    "telefono": "011 47246390",
+    "correo": "fnigro@inti.gob.ar",
+    "sitio_web": "https://www.argentina.gob.ar/servicios-inti/micro-y-nanotecnologias",
+    "ensayos": "S/D",
+    "servicios": "Manufactura aditiva FDM: Impresoras 3D - Sistemas de montaje de componentes para circuitos impresos: Pick&Place - Novastar LE-40V APS - Mecanizado CNC: CNC para Prototipado de PCB, Bungard CCD Premium - Integración y montaje de subsistemas: Planta Piloto de Prototipado y Ensamblado de PCBs (Stensil, Pick&Place, Horno de refusión, Soldadura y retrabajo de BGA, Inspección de soldaduras óptica y RX) - Desarrollo de software: Firmware para sistemas embebidos - Microfabricación: Litografía óptica (resoluciones hasta 1 micrón), Crecimiento de películas delgadas: Sputtering, CVD, Spincoating, Deposición de películas gruesas: Screen Printing, LTCC. Procesos de Grabado: Vía húmeda, Vía seca (RIE), Modificación de superficies por plasma. Nannomecanizado (FIB). - Microscopía/ Espectroscopía para análisis de materiales: SEM FEI Quanta 250 FEG, SEM/FIB Helios Nanolab 650, EDX. - Procesamiento digital de imágenes: RRHH en visión computacional y procesamiento de imágenes con IA. - Sala Limpia: Sala Limpia de Micro Fabricación (150 m² clases 100, 1.000 y 10.000) obleas de hasta 6 pulgadas.",
+    "sala_limpia": "ISO 5",
+    "calificaciones": "S/D"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.5219, -34.5842]
   }
 }
     ]
