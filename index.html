@@ -219,7 +219,9 @@ marker.on('click', function () {
   </div>
 </div>
     <canvas id="labsPieChart" width="400" height="400" style="margin: 2rem auto;"></canvas>
+<canvas id="provinciaPieChart" width="400" height="400" style="max-width: 400px; margin-top: 2rem;"></canvas>
 
+    <p>2025 maqueta by Maximiliano Ozono</p>
 
         <script>
 function actualizarEstadisticas(features) {
@@ -278,6 +280,44 @@ function actualizarEstadisticas(features) {
       }
     });
   }
+
+    // --- Provincias con laboratorios ---
+const provincias = {};
+
+features.forEach(f => {
+  const prov = f.properties.provincia?.trim();
+  if (prov && prov !== "S/D") {
+    if (!provincias[prov]) provincias[prov] = 0;
+    provincias[prov]++;
+  }
+});
+
+const cantidadProvincias = Object.keys(provincias).length;
+document.getElementById("provinciasConLabs").textContent = cantidadProvincias;
+
+// --- Pie chart por provincia ---
+new Chart(document.getElementById("provinciaPieChart"), {
+  type: 'pie',
+  data: {
+    labels: Object.keys(provincias),
+    datasets: [{
+      label: "Laboratorios por Provincia",
+      data: Object.values(provincias),
+      backgroundColor: [
+        "#1abc9c", "#3498db", "#9b59b6", "#f1c40f", "#e67e22", "#e74c3c",
+        "#2ecc71", "#34495e", "#7f8c8d", "#ff9ff3", "#ff6b6b", "#48dbfb"
+      ]
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'bottom' },
+      title: { display: true, text: 'Laboratorios por Provincia' }
+    }
+  }
+});
+
 }
 
 </script>
