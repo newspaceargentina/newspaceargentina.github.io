@@ -218,28 +218,48 @@ marker.on('click', function () {
     <p id="labsCalificaciones" style="font-size: 1.5rem; font-weight: bold; color: #8e44ad;">0%</p>
   </div>
 </div>
+    <canvas id="labsPieChart" width="400" height="400" style="margin: 2rem auto;"></canvas>
+
 
         <script>
-  function actualizarEstadisticas(features) {
-    const total = features.length;
-    const conSalaLimpia = features.filter(f => 
-    f.properties && 
-    f.properties.sala_limpia && 
-    f.properties.sala_limpia !== "No" && 
+function actualizarEstadisticas(features) {
+  const total = features.length;
+
+  const conSalaLimpia = features.filter(f => 
+    f.properties &&
+    f.properties.sala_limpia &&
+    f.properties.sala_limpia !== "No" &&
     f.properties.sala_limpia !== "S/D"
-).length;
-    const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
-    const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
-    const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
+  ).length;
 
-    document.getElementById("totalLabs").textContent = total;
-    document.getElementById("labsSalaLimpia").textContent = ((conSalaLimpia / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsEnsayos").textContent = ((conEnsayos / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsServicios").textContent = ((conServicios / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsCalificaciones").textContent = ((conCalificaciones / total) * 100).toFixed(1) + "%";
+  const conEnsayos = features.filter(f => 
+    f.properties &&
+    f.properties.ensayos &&
+    f.properties.ensayos !== "S/D"
+  ).length;
 
-    // Pie chart
-    new Chart(document.getElementById("labsPieChart"), {
+  const conServicios = features.filter(f => 
+    f.properties &&
+    f.properties.servicios &&
+    f.properties.servicios !== "S/D"
+  ).length;
+
+  const conCalificaciones = features.filter(f => 
+    f.properties &&
+    f.properties.calificaciones &&
+    f.properties.calificaciones !== "S/D"
+  ).length;
+
+  document.getElementById("totalLabs").textContent = total;
+  document.getElementById("labsSalaLimpia").textContent = ((conSalaLimpia / total) * 100).toFixed(1) + "%";
+  document.getElementById("labsEnsayos").textContent = ((conEnsayos / total) * 100).toFixed(1) + "%";
+  document.getElementById("labsServicios").textContent = ((conServicios / total) * 100).toFixed(1) + "%";
+  document.getElementById("labsCalificaciones").textContent = ((conCalificaciones / total) * 100).toFixed(1) + "%";
+
+  // Verificá que el canvas exista antes de crear el gráfico
+  const pieCanvas = document.getElementById("labsPieChart");
+  if (pieCanvas) {
+    new Chart(pieCanvas, {
       type: 'pie',
       data: {
         labels: ["Sala Limpia", "Ensayos", "Servicios", "Calificaciones"],
@@ -256,21 +276,10 @@ marker.on('click', function () {
           title: { display: true, text: 'Distribución de Capacidades en los Laboratorios' }
         }
       }
-    }
-             );
-  }
-
-document.addEventListener("DOMContentLoaded", function () {
-      fetch('labs_3-4-25-base_conae.geojson')
-        .then(response => response.json())
-        .then(data => {
-          // Lógica de Leaflet y markers
-          // ...
-          
-          // Y recién acá llamás a actualizarEstadisticas
-          actualizarEstadisticas(data.features);
-        });
     });
+  }
+}
+
 </script>
     
 </body>
