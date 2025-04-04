@@ -136,11 +136,14 @@
             .then(data => {
                 var sidebar = document.getElementById('sidebar');
                 
-                data.features.forEach(feature => {
+                data.features.forEach((feature, index) => {
+                  
                     if (!feature.geometry || !feature.geometry.coordinates) {
-    console.warn(`❗ Feature en índice ${index} no tiene geometry válida`, feature);
-    return; // salteamos este feature
+    console.warn(`⚠️ Feature sin coordenadas en el índice ${index}:`, feature);
+    return;
   }
+
+  const coords = feature.geometry.coordinates;
                     
                     var props = feature.properties;
                     var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]],{icon: laboratorioIcon})
