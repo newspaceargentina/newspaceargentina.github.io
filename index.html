@@ -82,6 +82,13 @@
                 flex-direction: column;
             }
         }
+
+        #labsBarChart {
+  max-width: 500px; /* Ajustalo a gusto */
+  margin: 0 auto;   /* Centra el gráfico */
+  display: block;
+}
+        
     </style>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -227,8 +234,9 @@ marker.on('click', function () {
   </div>
 </div>
     <canvas id="labsPieChart" width="400" height="400" style="margin: 2rem auto;"></canvas>
-<canvas id="labsBarChart" width="400" height="400"></canvas>
-
+<div style="max-width: 500px; margin: auto;">
+  <canvas id="labsBarChart" height="300"></canvas>
+</div>
     <p>2025 maqueta by Maximiliano Ozono</p>
 
         <script>
@@ -313,6 +321,7 @@ function actualizarEstadisticas(features) {
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
           title: { display: true, text: 'Cantidad de Laboratorios por Provincia' }
