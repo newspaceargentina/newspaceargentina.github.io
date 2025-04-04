@@ -227,7 +227,7 @@ marker.on('click', function () {
   </div>
 </div>
     <canvas id="labsPieChart" width="400" height="400" style="margin: 2rem auto;"></canvas>
-<canvas id="provinciaPieChart" width="400" height="400" style="max-width: 400px; margin-top: 2rem;"></canvas>
+<canvas id="labsBarChart" width="400" height="400"></canvas>
 
     <p>2025 maqueta by Maximiliano Ozono</p>
 
@@ -236,55 +236,95 @@ function actualizarEstadisticas(features) {
   const total = features.length;
 
   const conSalaLimpia = features.filter(f => 
-    f.properties && 
-    f.properties.sala_limpia && 
-    f.properties.sala_limpia !== "No" && 
+    f.properties &&
+    f.properties.sala_limpia &&
+    f.properties.sala_limpia !== "No" &&
     f.properties.sala_limpia !== "S/D"
   ).length;
 
-  const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
-  const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
-  const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
+  const conEnsayos = features.filter(f => 
+    f.properties &&
+    f.properties.ensayos &&
+    f.properties.ensayos !== "S/D"
+  ).length;
 
-  const provincias = {};
-  features.forEach(f => {
-    const prov = f.properties.provincia?.trim();
-    if (prov && prov !== "S/D") {
-      if (!provincias[prov]) provincias[prov] = 0;
-      provincias[prov]++;
-    }
-  });
+  const conServicios = features.filter(f => 
+    f.properties &&
+    f.properties.servicios &&
+    f.properties.servicios !== "S/D"
+  ).length;
+
+  const conCalificaciones = features.filter(f => 
+    f.properties &&
+    f.properties.calificaciones &&
+    f.properties.calificaciones !== "S/D"
+  ).length;
 
   document.getElementById("totalLabs").textContent = total;
-  document.getElementById("labsSalaLimpia").textContent = conSalaLimpia + " laboratorios";
-  document.getElementById("labsEnsayos").textContent = conEnsayos + " laboratorios";
-  document.getElementById("labsServicios").textContent = conServicios + " laboratorios";
-  document.getElementById("labsCalificaciones").textContent = conCalificaciones + " laboratorios";
-  document.getElementById("labsProvincias").textContent = Object.keys(provincias).length + " provincias";
+  document.getElementById("labsSalaLimpia").textContent = conSalaLimpia;
+  document.getElementById("labsEnsayos").textContent = conEnsayos;
+  document.getElementById("labsServicios").textContent = conServicios;
+  document.getElementById("labsCalificaciones").textContent = conCalificaciones;
 
-  // Pie Chart por provincia
-  new Chart(document.getElementById("labsProvinciasChart"), {
-    type: 'pie',
-    data: {
-      labels: Object.keys(provincias),
-      datasets: [{
-        label: "Laboratorios por Provincia",
-        data: Object.values(provincias),
-        backgroundColor: [
-          "#1abc9c", "#2ecc71", "#3498db", "#9b59b6", "#f1c40f",
-          "#e67e22", "#e74c3c", "#7f8c8d", "#16a085", "#2980b9"
-        ]
-      }]
-    },
-    options: {
-      responsive: true,
-      plugins: {
-        legend: { position: 'bottom' },
-        title: { display: true, text: 'Distribución por Provincia' }
+  // Pie Chart de capacidades
+  const pieCanvas = document.getElementById("labsPieChart");
+  if (pieCanvas) {
+    new Chart(pieCanvas, {
+      type: 'pie',
+      data: {
+        labels: ["Sala Limpia", "Ensayos", "Servicios", "Calificaciones"],
+        datasets: [{
+          label: "Distribución de Capacidades",
+          data: [conSalaLimpia, conEnsayos, conServicios, conCalificaciones],
+          backgroundColor: ["#2980b9", "#27ae60", "#f39c12", "#8e44ad"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: { display: true, text: 'Distribución de Capacidades en los Laboratorios' }
+        }
       }
+    });
+  }
+
+  // Conteo por provincia (usando "localizacion")
+  const conteoPorProvincia = {};
+  features.forEach(f => {
+    const provincia = f.properties && f.properties.localizacion;
+    if (provincia) {
+      conteoPorProvincia[provincia] = (conteoPorProvincia[provincia] || 0) + 1;
     }
   });
+
+  // Bar Chart por provincia
+  const barCanvas = document.getElementById("labsBarChart");
+  if (barCanvas) {
+    new Chart(barCanvas, {
+      type: 'bar',
+      data: {
+        labels: Object.keys(conteoPorProvincia),
+        datasets: [{
+          label: "Laboratorios por Provincia",
+          data: Object.values(conteoPorProvincia),
+          backgroundColor: "#3498db"
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { display: false },
+          title: { display: true, text: 'Cantidad de Laboratorios por Provincia' }
+        },
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+  }
 }
+
 
 
 </script>
