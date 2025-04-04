@@ -89,44 +89,7 @@
 </head>
 <body>
     
-     <script>
-  function actualizarEstadisticas(features) {
-    const total = features.length;
-    const conSalaLimpia = features.filter(f => f.properties.sala_limpia !== "No" ).length;
-    const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
-    const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
-    const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
-
-    document.getElementById("totalLabs").textContent = total;
-    document.getElementById("labsSalaLimpia").textContent = ((conSalaLimpia / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsEnsayos").textContent = ((conEnsayos / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsServicios").textContent = ((conServicios / total) * 100).toFixed(1) + "%";
-    document.getElementById("labsCalificaciones").textContent = ((conCalificaciones / total) * 100).toFixed(1) + "%";
-
-    // Pie chart
-    new Chart(document.getElementById("labsPieChart"), {
-      type: 'pie',
-      data: {
-        labels: ["Sala Limpia", "Ensayos", "Servicios", "Calificaciones"],
-        datasets: [{
-          label: "Distribución de Capacidades",
-          data: [conSalaLimpia, conEnsayos, conServicios, conCalificaciones],
-          backgroundColor: ["#2980b9", "#27ae60", "#f39c12", "#8e44ad"]
-        }]
-      },
-      options: {
-        responsive: true,
-        plugins: {
-          legend: { position: 'bottom' },
-          title: { display: true, text: 'Distribución de Capacidades en los Laboratorios' }
-        }
-      }
-    });
-  }
-
-  // Cuando cargues el GeoJSON en tu app, llamá a esto:
-  // actualizarEstadisticas(geojson.features);
-</script>
+  
     <div class="header">
         <img src="/images/conae_logo.png" alt="Logo CONAE">
         <div>
@@ -226,6 +189,44 @@ marker.on('click', function () {
                  );
     </script>
 
+       <script>
+  function actualizarEstadisticas(features) {
+    const total = features.length;
+    const conSalaLimpia = features.filter(f => f.properties.sala_limpia !== "No" ).length;
+    const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
+    const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
+    const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
+
+    document.getElementById("totalLabs").textContent = total;
+    document.getElementById("labsSalaLimpia").textContent = ((conSalaLimpia / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsEnsayos").textContent = ((conEnsayos / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsServicios").textContent = ((conServicios / total) * 100).toFixed(1) + "%";
+    document.getElementById("labsCalificaciones").textContent = ((conCalificaciones / total) * 100).toFixed(1) + "%";
+
+    // Pie chart
+    new Chart(document.getElementById("labsPieChart"), {
+      type: 'pie',
+      data: {
+        labels: ["Sala Limpia", "Ensayos", "Servicios", "Calificaciones"],
+        datasets: [{
+          label: "Distribución de Capacidades",
+          data: [conSalaLimpia, conEnsayos, conServicios, conCalificaciones],
+          backgroundColor: ["#2980b9", "#27ae60", "#f39c12", "#8e44ad"]
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: { position: 'bottom' },
+          title: { display: true, text: 'Distribución de Capacidades en los Laboratorios' }
+        }
+      }
+    });
+  }
+
+  // Cuando cargues el GeoJSON en tu app, llamá a esto:
+  // actualizarEstadisticas(geojson.features);
+</script>
 
    
 
