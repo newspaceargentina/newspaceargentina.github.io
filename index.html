@@ -70,16 +70,20 @@
                 margin-bottom: 10px;
             }
             #sidebar {
-                width: 100%;
-                height: auto;
-                padding: 10px;
+                width: 300px; /* Ajustá según tu necesidad */
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ccc;
             }
             #map {
-                height: 400px;
+                  flex-grow: 1;
+                height: 100%;
             }
             .container {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                height: calc(100vh - 150px);
             }
         }
 
