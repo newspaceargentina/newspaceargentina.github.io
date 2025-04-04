@@ -557,7 +557,7 @@
             "type": "Feature",
             "properties": {
                 "registro": 25,
-                "nombre": FAMAF,
+                "nombre": "FAMAF",
                 "institucion": "UNC",
                 "localizacion": "Córdoba",
                 "direccion": "Sin dato",
@@ -605,7 +605,7 @@
             "type": "Feature",
             "properties": {
                 "registro": 29,
-                "nombre": Balseiro,
+                "nombre": "Instituto Balseiro",
                 "institucion": "Instituto Balseiro",
                 "localizacion": "Río Negro",
                 "direccion": "Sin dato",
@@ -629,7 +629,7 @@
             "type": "Feature",
             "properties": {
                 "registro": 30,
-                "nombre": CONAE/VENG,
+                "nombre": "Laboratorios CONAE /VENG",
                 "institucion": "CONAE/Veng",
                 "localizacion": "Córdoba",
                 "direccion": "Falda del Cañete",
