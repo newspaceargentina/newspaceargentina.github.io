@@ -135,7 +135,7 @@
             .then(response => response.json())
             .then(data => {
                 var sidebar = document.getElementById('sidebar');
-                //actualizarEstadisticas(data.features); //aca puse esta linea
+                actualizarEstadisticas(data.features); //aca puse esta linea
                 data.features.forEach(feature => {
                     var props = feature.properties;
                     var marker = L.marker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]],{icon: laboratorioIcon})
