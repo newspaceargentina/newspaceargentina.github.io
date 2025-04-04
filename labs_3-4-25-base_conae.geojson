@@ -82,7 +82,7 @@
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "Av. Gral Paz 1499, Villa Maipu, San Martin",
                 "telefono": 541167727559,
-                "correo": "her""socolovsky@cnea.gob.ar",
+                "correo": "hernansocolovsky@cnea.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/cnea/cac/energia-solar/integracion-y-ensayo-de-paneles-solares-espaciales",
                 "ensayos": " - Cámara de vacío: pequeña camara de vacio asociada a la linea de daño por radiacion del TANDAR - Cámara ambiental: pequeña camara de ciclado termico a presion atmosferica (-120°C a +150°C)",
                 "servicios": " - Integración y montaje de subsistemas: integracion electrica de paneles solares para uso espacial. - Calibración y medición (metrología): sensores de radiacion solar (coarse solar sensors) - Microfabricación: Dispositivos semiconductores basados en materiales IIV-V para uso en fotovoltaico - Desarrollo y evaluación de paneles solares y/o baterías: Desarrollo de paneles solares para uso espacial, dimensionamiento y medicion de performance mediante simulador solar. - Laboratorio educativo / Programa de capacitación en temática espacial: Laboratorio con diferentes experimentos asociados a la energía solar (uso terrestre y espacial) - Recubrimientos especiales: Realizacion de procesos de plateado electroquimico y baños electroquimicos en general - Sala Limpia: area limpia clase 10.000 (iso 7) de 200m2",
@@ -197,7 +197,7 @@
             "type": "Feature",
             "properties": {
                 "registro": 9,
-                "nombre": "Laboratorio de Integración ""oElectrónica",
+                "nombre": "Laboratorio de Integración NanoElectrónica",
                 "institucion": "Escuela de Ciencia y Tecnología, Universidad Nacional de San Martín",
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "25 de Mayo y Francia",
@@ -294,7 +294,7 @@
             "properties": {
                 "registro": 13,
                 "nombre": "Innova Space",
-                "institucion": "",
+                "institucion": "S/D",
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "Chaco 1670, Mar del Plata",
                 "telefono": "91133647098",
@@ -318,7 +318,7 @@
             "properties": {
                 "registro": 14,
                 "nombre": "Microroe Ingeniería Electrónica",
-                "institucion": "",
+                "institucion": "S/D",
                 "localizacion": "Buenos Aires (Provincia)",
                 "direccion": "117 N 408",
                 "telefono": "+5492216376950",
@@ -468,7 +468,7 @@
                 "telefono": "011 47246200/ interno 6332",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/plasticos",
-                "ensayos": "",
+                "ensayos": "S/D",
                 "servicios": " - Microscopía/ Espectroscopía para análisis de materiales: / Espectroscopía para análisis de materiales Identificación de polímeros principales por espectroscopía infrarroja.",
                 "sala_limpia": "No",
                 "calificaciones": "Personal calificado"
@@ -492,7 +492,7 @@
                 "telefono": "011 47246200",
                 "correo": "fnigro@inti.gob.ar",
                 "sitio_web": "https://www.argentina.gob.ar/servicios-inti/electronica-y-tics",
-                "ensayos": "",
+                "ensayos": "S/D",
                 "servicios": " - Calibración y medición (metrología): Servicio de mediciones solamente. Cuenta con analizador de señales hasta 45GHz y generador de RF hasta 20GHz. - Desarrollo de software: Experiencia en sistemas de comunicaciones digitales y radios definidas por software (SDR) - Simulación y modelado para predecir comportamiento de sistemas: Experiencia en el uso de ANSYS electronic design suite y ADS - Procesamiento digital de imágenes: Capacidades en procesamiento de imágenes en python",
                 "sala_limpia": "No",
                 "calificaciones": "S/D"
@@ -517,7 +517,7 @@
                 "correo": "fhi@unsam.edu.ar",
                 "sitio_web": "Sin dato",
                 "ensayos": "Payloads development: x",
-                "servicios": "",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -533,14 +533,14 @@
             "type": "Feature",
             "properties": {
                 "registro": 24,
-                "nombre": "Micro y ""otecnologías",
+                "nombre": "Micro y Nanotecnologías",
                 "institucion": "INTI",
                 "localizacion": "Buenos Aires",
                 "direccion": "Sin dato",
                 "telefono": "Sin dato",
                 "correo": "alozano@inti.gob.ar",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
+                "ensayos": "S/D",
                 "servicios": "Laboratorio de \nMicroscopía: FIB; SEM; Diseño de Circuitos \nIntegrados (ASICs): - Electrónica Impresa Funcional: - Diseño y Prototipado de \nPCB: - Caracterización\nde PCB: - Procesamiento Digital \nde imágenes: x",
                 "sala_limpia": "ISO5; ISO 7",
                 "calificaciones": "Sin dato"
@@ -565,7 +565,7 @@
                 "correo": "juanfraire@gmail.com",
                 "sitio_web": "Sin dato",
                 "ensayos": "; otros: - experiencia en protocolos de comm",
-                "servicios": "",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -632,7 +632,7 @@
                 "nombre": "Laboratorios CONAE /VENG",
                 "institucion": "CONAE/Veng",
                 "localizacion": "Córdoba",
-                "direccion": "Falda del Cañete",
+                "direccion": "Ruta C45, Km 8. (5187) Falda del Cañete - Provincia de Córdoba",
                 "telefono": "Sin dato",
                 "correo": "info.labs@conae.gov.ar",
                 "sitio_web": "https://www.conae.gob.ar",
@@ -660,8 +660,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -684,8 +684,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -708,8 +708,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -732,8 +732,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -756,8 +756,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -780,8 +780,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -804,8 +804,8 @@
                 "telefono": "Sin dato",
                 "correo": "Sin dato",
                 "sitio_web": "Sin dato",
-                "ensayos": "",
-                "servicios": "",
+                "ensayos": "S/D",
+                "servicios": "S/D",
                 "sala_limpia": "No",
                 "calificaciones": "Sin dato"
             },
@@ -828,8 +828,8 @@
                 "telefono": "Sin dato",
                 "correo": "bolzi@tandar.cnea.gov.ar",
                 "sitio_web": "Sin dato",
-                "ensayos": "; otros: - cámara para ensayos de daño por radiación\n- cámara de ciclado térmico rápido\n- autoclave (diámetro 1800 mm x 4500 mm)\n- cnc de 3 ejes\n- torno cnc\n- fresadora cnc de 3 ejes de 1749 mm x 2950 mm x 343 mm\n- centro de maquinado cnc\n- sol artificial de luz continua para medición de celdas solares\n- sol artificial de gran área para medición de paneles solares 3000 mm x 3000 mm\n- máquinas de soldadura por welding y soldering\n- equipamiento para distribución de adhesivo y pegado de componentes",
-                "servicios": "",
+                "ensayos": "- cámara para ensayos de daño por radiación\n- cámara de ciclado térmico rápido\n- autoclave (diámetro 1800 mm x 4500 mm)\n- cnc de 3 ejes\n- torno cnc\n- fresadora cnc de 3 ejes de 1749 mm x 2950 mm x 343 mm\n- centro de maquinado cnc\n- sol artificial de luz continua para medición de celdas solares\n- sol artificial de gran área para medición de paneles solares 3000 mm x 3000 mm\n- máquinas de soldadura por welding y soldering\n- equipamiento para distribución de adhesivo y pegado de componentes",
+                "servicios": "S/D",
                 "sala_limpia": "ISO6; ISO7; ISO 8",
                 "calificaciones": "Sin dato"
             },
@@ -841,6 +841,25 @@
                 ]
             }
         }
-        
+        {
+  "type": "Feature",
+  "properties": {
+    "nombre": "CEATSA",
+    "institucion": "INVAP / ARSAT",
+    "localizacion": "San Carlos de Bariloche, Río Negro, Argentina",
+    "direccion": "Av. Cmte. Luis Piedrabuena 4950, San Carlos de Bariloche, Río Negro",
+    "telefono": "+54 294 4409399 / 4409300",
+    "email": "info@ceatsa.com.ar",
+    "sitio_web": "https://www.ceatsa.com.ar/",
+    "ensayos": "Cámara Termo Vacío, Ensayos Mecánicos, Ensayos de Vibración, Ensayos Acústicos, Ensayos de RF, EMI/EMC",
+    "servicios": "Calibración y Metrología, Pruebas de compatibilidad electromagnética, Medición de radiofrecuencia",
+    "sala_limpia": "Cámara anecoica para ensayos de radiofrecuencia y compatibilidad electromagnética",
+    "calificaciones": "Pruebas y certificaciones para misiones espaciales y telecomunicaciones"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.2895, -41.1510]
+  }
+}
     ]
 }
