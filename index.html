@@ -192,7 +192,12 @@ marker.on('click', function () {
        <script>
   function actualizarEstadisticas(features) {
     const total = features.length;
-    const conSalaLimpia = features.filter(f => f.properties.sala_limpia !== "S/D" && f.properties.sala_limpia !== "No").length;
+    const conSalaLimpia = features.filter(f => 
+    f.properties && 
+    f.properties.sala_limpia && 
+    f.properties.sala_limpia !== "No" && 
+    f.properties.sala_limpia !== "S/D"
+).length;
     const conEnsayos = features.filter(f => f.properties.ensayos && f.properties.ensayos !== "S/D").length;
     const conServicios = features.filter(f => f.properties.servicios && f.properties.servicios !== "S/D").length;
     const conCalificaciones = features.filter(f => f.properties.calificaciones && f.properties.calificaciones !== "S/D").length;
