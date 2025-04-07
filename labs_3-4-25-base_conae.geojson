@@ -915,6 +915,7 @@
       },
       "properties": {
         "nombre": "Estacion Terrena de Cordoba - ETC",
+        "institucion": "CONAE",
         "direccion": "Centro Espacial Teófilo Tabanera – CONAE, Ruta C45, Km 8",
         "localizacion": "Córdoba",
         "correo": "grebola@conae.gob.ar",
@@ -933,6 +934,7 @@
       },
       "properties": {
         "nombre": "Estación Terrena de Tierra del Fuego - ETdF",
+        "institucion": "CONAE",
         "direccion": "Ruta Provincial 23 9420 Tolhuin",
         "localizacion": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
         "correo": "grebola@conae.gob.ar",
@@ -951,6 +953,7 @@
       },
       "properties": {
         "nombre": "Deep Space 3 – ESA/CONAE",
+        "institucion": "CONAE",
         "direccion": "Malargüe",
         "localizacion": "Mendoza",
         "correo": "mcolazo@conae.gob.ar",
@@ -969,6 +972,7 @@
       },
       "properties": {
         "nombre": "CLTC - CONAE Neuquen",
+         "institucion": "CONAE",
         "direccion": "Bajada del Agrio",
         "localizacion": "Neuquén",
         "correo": "mcolazo@conae.gob.ar",
