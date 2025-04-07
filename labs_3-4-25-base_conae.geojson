@@ -907,5 +907,77 @@
     "coordinates": [-58.5219, -34.5842]
   }
 }
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-64.2615, -31.5742]
+      },
+      "properties": {
+        "nombre": "Estacion Terrena de Cordoba - ETC",
+        "direccion": "Centro Espacial Teófilo Tabanera – CONAE, Ruta C45, Km 8",
+        "localizacion": "Córdoba",
+        "correo": "grebola@conae.gob.ar",
+        "sitio_web": "https://www.argentina.gob.ar/ciencia/conae",
+        "ensayos": "",
+        "servicios": "Servicios de Estación Terrena: Telemetría y telecomando en banda S, bajadas de datos en Banda X. Antenas de 3.6m, 7.3m, 13m, 13.5m y 5.4m (Móvil). Nueva antena de 3.6m para banda X.",
+        "sala_limpia": "No",
+        "calificaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-65.0641, -54.5207]
+      },
+      "properties": {
+        "nombre": "Estación Terrena de Tierra del Fuego - ETdF",
+        "direccion": "Ruta Provincial 23 9420 Tolhuin",
+        "localizacion": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
+        "correo": "grebola@conae.gob.ar",
+        "sitio_web": "https://www.argentina.gob.ar/ciencia/conae",
+        "ensayos": "",
+        "servicios": "Servicios de Estación Terrena: Telemetría y tele comando en banda S, bajadas de datos en Banda X. Antenas de 13.5m (Móvil), 7.3m Ka.",
+        "sala_limpia": "No",
+        "calificaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.5828, -35.4748]
+      },
+      "properties": {
+        "nombre": "Deep Space 3 – ESA/CONAE",
+        "direccion": "Malargüe",
+        "localizacion": "Mendoza",
+        "correo": "mcolazo@conae.gob.ar",
+        "sitio_web": "https://www.argentina.gob.ar/ciencia/conae",
+        "ensayos": "",
+        "servicios": "Servicios de Estación Terrena: Antena de espacio profundo 35m. Banda X, K y Ka.",
+        "sala_limpia": "No",
+        "calificaciones": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.1549, -38.0352]
+      },
+      "properties": {
+        "nombre": "CLTC - CONAE Neuquen",
+        "direccion": "Bajada del Agrio",
+        "localizacion": "Neuquén",
+        "correo": "mcolazo@conae.gob.ar",
+        "sitio_web": "https://www.argentina.gob.ar/ciencia/conae",
+        "ensayos": "",
+        "servicios": "Servicios de Estación Terrena: Antena de espacio profundo 35m. Banda S y X.",
+        "sala_limpia": "No",
+        "calificaciones": ""
+      }
+    }
     ]
 }
