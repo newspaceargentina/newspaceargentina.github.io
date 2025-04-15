@@ -1,0 +1,176 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.40933126310684,
+          -34.628984462895666
+        ]
+      },
+      "properties": {
+        "nombre": "Lia Aerospace",
+        "localizacion": "Buenos Aires",
+        "direccion": "CABA, Buenos Aires",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://liaaerospace.com/",
+        "servicios": "Desarrollo de microcohetes, propulsión líquida"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.52378728181947,
+          -31.49224540659843
+        ]
+      },
+      "properties": {
+        "nombre": "Innovaspace",
+        "localizacion": "San Juan",
+        "direccion": "San Juan, Argentina",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://www.innovaspace.com/",
+        "servicios": "Educación espacial, acceso inclusivo al espacio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.23257942593753,
+          -31.406975226077126
+        ]
+      },
+      "properties": {
+        "nombre": "Space Sur",
+        "localizacion": "Córdoba",
+        "direccion": "Córdoba Capital, Argentina",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://spacesur.com.ar/",
+        "servicios": "Sistemas satelitales, ingeniería espacial"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411646080134325,
+          -34.56538937088632
+        ]
+      },
+      "properties": {
+        "nombre": "Satellogic",
+        "localizacion": "Buenos Aires",
+        "direccion": "Av. Del Libertador 498, CABA",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://www.satellogic.com/",
+        "servicios": "Observación de la Tierra con microsatélites"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.22263405991421,
+          -31.373237729534324
+        ]
+      },
+      "properties": {
+        "nombre": "Arsultra",
+        "localizacion": "Córdoba",
+        "direccion": "Córdoba, Argentina",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://arsultra.com/",
+        "servicios": "Componentes electrónicos para el espacio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.89560490181379,
+          -27.35211678609214
+        ]
+      },
+      "properties": {
+        "nombre": "FanIoT",
+        "localizacion": "Misiones",
+        "direccion": "Posadas, Misiones",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://faniot.ar/",
+        "servicios": "NanoSensores, nanosatélites y electrónica"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.411360945173335,
+          -34.590389916264115
+        ]
+      },
+      "properties": {
+        "nombre": "Tlon Space",
+        "localizacion": "Buenos Aires",
+        "direccion": "Buenos Aires, Argentina",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://www.tlon.space/",
+        "servicios": "Motores para satélites y vehículos orbitales"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2116400110389,
+          -26.79770087821672
+        ]
+      },
+      "properties": {
+        "nombre": "Epic Aerospace",
+        "localizacion": "Tucumán",
+        "direccion": "San Miguel de Tucumán",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://epicaerospace.com/",
+        "servicios": "Plataformas satelitales y lanzadores"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.44713472825663,
+          -34.60471370023544
+        ]
+      },
+      "properties": {
+        "nombre": "DIY-Satellite",
+        "localizacion": "Buenos Aires",
+        "direccion": "Argentina",
+        "telefono": "",
+        "correo": "",
+        "sitio_web": "https://diysatellite.org/",
+        "servicios": "Satélites DIY y democratización del acceso espacial"
+      }
+    }
+  ]
+}
