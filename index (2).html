@@ -223,7 +223,7 @@ marker.on('click', function () {
                  );
 
               // ✅ NUEVA CAPA DE EMPRESAS
-        fetch('empresas_proyectos.geojson')
+        fetch('empresas_servicios.geojson')
             .then(response => response.json())
             .then(data => {
                 data.features.forEach((feature, index) => {
