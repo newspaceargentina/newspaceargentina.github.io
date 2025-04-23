@@ -6,18 +6,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.40933126310684,
-          -34.628984462895666
+          -64.1987544918289,
+          -31.48849684376057
         ]
       },
       "properties": {
-        "nombre": "Lia Aerospace",
+        "nombre": " FADEA S.A.",
+        "localizacion": "Cordoba",
+        "direccion": "Av. Fuerza Aérea Argentina 5505,\nCórdoba (X5011DEB), Argentina\n+54 (351) 466-8700",
+        "correo": "Juan Domingo Vidal - vidal@fadeasa.com.ar",
+        "sitio_web": "https://www.fadeasa.com.ar/es/",
+        "servicios": "Ingenieria, Procesos",
+        "descripcion": "FAdeA es una empresa que provee de los medios y servicios aeroespaciales a los organismos de Defensa y Seguridad, así como al sector Civil; gestionando, desarrollando tecnología, traccionando al sector industrial argentino, con inserción y vinculación nacional e internacional, siendo referente de la industria aeronáutica y aeroespacia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46064167480572,
+          -34.52883438822944
+        ]
+      },
+      "properties": {
+        "nombre": "CNEA  ",
+        "localizacion": "Buenos Aires, Rio Negro",
+        "direccion": "Av. Gral. Paz 1499 1650 Buenos Aires Ciudad autónoma de Buenos Aires · 14 km",
+        "correo": "S/D",
+        "sitio_web": "https://www.argentina.gob.ar/cnea/servicios-para-despliegue-de-energia-solar-terrestre-y-espacial",
+        "servicios": "Paneles Solares, Materiales Compuestos, Estrcusturas y Mecanismos, Ensayos de Radiacion",
+        "descripcion": "es un centro de investigación y desarrollo argentino que cubre un amplio espectro de actividades centradas en las ciencias bases de la tecnología nuclear, desde la investigación básica y aplicada, al desarrollo y transferencia de tecnología, incluyendo la producción precompetitiva en la escala de planta piloto y la tarea de formación de recursos humanos"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.39415155597641,
+          -34.62594476039602
+        ]
+      },
+      "properties": {
+        "nombre": "IAR  ",
         "localizacion": "Buenos Aires",
-        "direccion": "CABA, Buenos Aires",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://liaaerospace.com/",
-        "servicios": "Desarrollo de microcohetes, propulsión líquida"
+        "direccion": "Camino Gral. Belgrano Km 40 - Berazategui - Prov. de Buenos Aires - ARGENTINA",
+        "correo": "S/D",
+        "sitio_web": "http://tux.iar.unlp.edu.ar/",
+        "servicios": "La actividad observacional del IAR se centra en el uso de dos radiotelescopios de disco simple y 30m de diámetro, Antena, Radio Frecuencia",
+        "descripcion": "En el Acta Fundacional de la institución se indica que las finalidades de la misma son:\na) Realizar investigaciones científicas en el campo de la radioastronomía.\nb) Prestar ayuda y asesoramiento a otras instituciones interesadas en la investigación sobre radioastronomía.\nc) Colaborar en el desarrollo de la enseñanza de la radioastronomía.\nd) Contribuir a la formación de investigadores y técnicos en su campo específico.\ne) Difundir información sobre su campo específico, por los medios y procedimientos apropiados.\nf) Mantener relaciones de carácter científico con instituciones similares nacionales, extranjeras o internacionales."
       }
     },
     {
@@ -25,18 +63,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -68.52378728181947,
-          -31.49224540659843
+          -58.2893899737369,
+          -34.65950853644694
         ]
       },
       "properties": {
-        "nombre": "Innovaspace",
-        "localizacion": "San Juan",
-        "direccion": "San Juan, Argentina",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://www.innovaspace.com/",
-        "servicios": "Educación espacial, acceso inclusivo al espacio"
+        "nombre": "AEROTERRA S.R.L.  ",
+        "localizacion": "CABA",
+        "direccion": " Oficinas Buenos Aires\n\nDella Paolera 218 C1001ADB, CABA",
+        "correo": "S/D",
+        "sitio_web": "https://www.aeroterra.com/es-ar/home",
+        "servicios": "Sistemas, Información, Geografía\n\nLíderes en la integración de soluciones geoespaciales.  Soluciones de mapeo y análisis de datos basadas en ArcGIS.",
+        "descripcion": "\nAeroterra es una empresa de capitales 100% argentinos que opera en el mercado desde hace 50 años. Nace con el objetivo de dedicarse a proveer servicios y aplicaciones innovadoras alrededor de la utilización de tecnología geoespacial. Pero el paso de los años, la demanda del mercado y la necesidad de mejorar la respuesta a las necesidades de nuestros clientes, tanto como la de anticiparnos a ellas, nos llevó a buscar nuevas formas de expandirnos."
       }
     },
     {
@@ -44,18 +82,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.23257942593753,
-          -31.406975226077126
+          -58.296646829796956,
+          -34.51693442243441
         ]
       },
       "properties": {
-        "nombre": "Space Sur",
-        "localizacion": "Córdoba",
-        "direccion": "Córdoba Capital, Argentina",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://spacesur.com.ar/",
-        "servicios": "Sistemas satelitales, ingeniería espacial"
+        "nombre": " INVAP S.E. ",
+        "localizacion": "Rio Negro, CABA, Cordoba",
+        "direccion": "Av. Cmte. Luis Piedrabuena 4950 (R8403CPV)\nSan Carlos de Bariloche, Río Negro, Argentina",
+        "correo": "S/D",
+        "sitio_web": "https://www.invap.com.ar/",
+        "servicios": "Segmento de vuelo, Ingenieria, Operaciones, Instrumentos,Segmento de tierra, Infromacion satelital",
+        "descripcion": "Somos una empresa referente en proyectos tecnológicos a nivel mundial y protagonista del desarrollo en Argentina.\n\nCon experiencia en la gestación, implementación y administración de proyectos multidisciplinarios de alta complejidad, en función de las necesidades y requerimientos de cada cliente, INVAP logra satisfacer todas las etapas de un proyecto tecnológico.\n\nNuestro principal objetivo es mejorar la calidad de vida de las personas, aportando al desarrollo sustentable."
       }
     },
     {
@@ -63,18 +101,265 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -58.411646080134325,
-          -34.56538937088632
+          -58.407814662511555,
+          -34.52328289440304
+        ]
+      },
+      "properties": {
+        "nombre": " INTEMA ",
+        "localizacion": "Buenos Aires",
+        "direccion": "Av. Cristóbal Colón 10850\nB7606BWV Mar del Plata | Argentina\nTel: +54 223 626-0600",
+        "correo": "S/D",
+        "sitio_web": "intema@intema.gob.ar",
+        "servicios": " Desarrollos tecnológicos en el área de los materiales, tanto desde el punto de vista estructural como funcional de sus aplicaciones.Polímeros, Corrosión, Soldadura y Fractomecánica, Metalurgia, y Catálisis, Ceramicos",
+        "descripcion": "l Instituto de Investigaciones en Ciencia y Tecnología de Materiales (INTEMA) se originó en 1982 como una asociación de cinco grupos de investigación preexistentes de la Facultad de Ingeniería de la UNMdP, que tenían inicialmente una alta independencia y autonomía. Estos eran Polímeros, Corrosión, Soldadura y Fractomecánica, Metalurgia, y Catálisis. Posteriormente, en 1988, se incorporó un sexto, Cerámicos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.336373210762375,
+          -34.67106021093396
+        ]
+      },
+      "properties": {
+        "nombre": "CONAE  ",
+        "localizacion": "Buenos Aires, Rio Negro, Cordoba, Mendoza, Tierra del Fuego",
+        "direccion": "Dirección: Av. Paseo Colón 751\nCódigo postal: CP1063",
+        "correo": "S/D",
+        "sitio_web": "https://www.argentina.gob.ar/ciencia/conae",
+        "servicios": "Segmento de Vuelo, Segmento de Toerra, Infraestructura, Acceso al Espacio, Informacon satelital",
+        "descripcion": "Agencia Espacial Nacional con competencia para proponer las políticas para la promoción y ejecución de las actividades en el área espacial con fines pacíficos en el ámbito productivo, científico, educativo y para la creación de tecnologías nacionales innovadoras, en todo el territorio argentino."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.414234620962674,
+          -34.671116482178455
+        ]
+      },
+      "properties": {
+        "nombre": " VENG S.A. ",
+        "localizacion": "Buenos Aires y Cordoba",
+        "direccion": "Paseo Colón 505, 6° Piso – Capital Federal\nBuenos Aires, Argentina\n\nTeléfono: +54 011 4340 5290",
+        "correo": "S/D",
+        "sitio_web": "https://veng.com.ar/",
+        "servicios": "Informacion Satelital, Segmento Terreno, Segmento de Vuelo, Acceso al Espacio",
+        "descripcion": "VENG es una empresa argentina de servicios y desarrollos tecnológicos de alto valor agregado especializada en la actividad espacial. Ofrecemos a la industria espacial y a la industria en general, servicios de ingeniería y fabricaciones para la resolución de problemas complejos I+D+i."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.34406312520011,
+          -34.54381581611023
+        ]
+      },
+      "properties": {
+        "nombre": "Infosat",
+        "localizacion": "CABA",
+        "direccion": "Viamonte 867 Piso 7° Of.701 CP:1053 Buenos Aires, Argentina",
+        "correo": "info@infosat.com.ar",
+        "sitio_web": "https://infosat.com.ar/",
+        "servicios": "Soluciones de software y recursos para la toma de decisiones estratégicas areas Agro, Petroleo, Oli and Gas, Gobierno, urbanos, Catastros",
+        "descripcion": "Gestión de información satelital para potenciar la capacidad de toma de decisiones\nPoder tecnológico y ejecutivo para dar respuestas a la necesidad de información georeferencial.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.09945445456302,
+          -31.367674645562168
+        ]
+      },
+      "properties": {
+        "nombre": "VALTHE ING. S.R.L.  ",
+        "localizacion": "Cordoba",
+        "direccion": "General Ordoñez, Córdoba Argentina.",
+        "correo": "info@valtheing.com",
+        "sitio_web": "https://valtheing.com/",
+        "servicios": "Ensayos, Stock Criogenico, Ingeniieria y modelado",
+        "descripcion": "\n\nValthe Ing. se especializa en proporcionar servicios de desarrollos, pruebas, ensayos, evaluación e ingeniería al sector aeroespacial, de procesos, metalúrgicos y de materiales, en todo el país. También ofrecemos servicios internos de Ingeniería e I + D + i a través de nuestro Departamento de Desarrollos e Ingeniería.\n\nTenemos una orgullosa historia brindando excelentes servicios y productos a nuestros clientes tanto en el sector privado, organismos públicos del gobierno y la industria en general.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.36790060112198,
+          -34.672543433219914
+        ]
+      },
+      "properties": {
+        "nombre": "ARSAT S.A.  ",
+        "localizacion": "Buenos Aires",
+        "direccion": "Av. Juan D. Perón 7934\nB1621BGY, Benavidez PBA, Argentina",
+        "correo": "S/D",
+        "sitio_web": "https://www.arsat.com.ar/",
+        "servicios": "Segmento Terreni, Infrestructura, Segmento de Vuelo, Servicios de Comunicaciones satelitales, operación",
+        "descripcion": "Somos la empresa nacional de telecomunicaciones creada por el Estado Argentino el 22 de mayo de 2006, a través de la Ley 26.092. Brindamos conectividad mayorista para acortar la brecha digital entre las pequeñas localidades y las grandes ciudade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.46479810667219,
+          -34.64471984299195
+        ]
+      },
+      "properties": {
+        "nombre": " TLON SPACE S.A.  ",
+        "localizacion": "Buenos Aires, Uruguay",
+        "direccion": " Arias 4806, piso 1 depto 2\n\nCiudad de Buenos Aires, Ciudad de Buenos Aires ",
+        "correo": "S/D",
+        "sitio_web": "http://www.tlon.space ",
+        "servicios": "Acceso al Espacio, Lanzadores de Microsatelitales",
+        "descripcion": "En TLON Space, nuestra visión es superar los límites de la innovación mediante el desarrollo de tecnología que contribuya, impulse y amplíe la accesibilidad espacial para la industria satelital.a. El Aventura I está en camino de convertirse en el cohete orbital más ligero del mundo; con un peso total de 500 kg, podrá insertar aproximadamente 10 kg de carga útil en un cohete orbital de 250 km.\n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.43921741556826,
+          -34.624879983133376
+        ]
+      },
+      "properties": {
+        "nombre": "SPACESUR S.R.L. ",
+        "localizacion": "CABA , España",
+        "direccion": "SUR América\n\nBuenos Aires / Argentina\n\n_______\n\nSUR Europa\n\nBarcelona / España\n",
+        "correo": "S/D",
+        "sitio_web": "https://www.spacesur.com/",
+        "servicios": "Soluciones de software y recursos para la toma de decisiones estratégicas areasGas Petroleo, Mineria, Ciudades Inteligentes, Alerta Temprana y emergencias, Defensa Y seguridad. Desarrollo de Software para segmento terreno y educacion de tecnologia espacial",
+        "descripcion": "Desarrollamos soluciones geoespaciales y de observación de la Tierra adaptadas y costo-efectivas para diferentes sectores e industrias, según las necesidades de nuestros clientes. Trabajamos basándonos en nuestra exclusiva metodología ágil que aplica nuestro propio framework tecnológico Geo.Platform combinado con servicios especializados de ingeniería de software geoespacial, ciencia de datos de observación de la Tierra, análisis de negocio, formación de usuarios y soporte experto. A lo largo de nuestra trayectoria, hemos desarrollado soluciones basadas en tecnología geoespacial con un alto impacto económico y social, con múltiples casos de éxito en diferentes sectores y países"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.15017242316927,
+          -31.328661453812945
+        ]
+      },
+      "properties": {
+        "nombre": "DTA S.A. ",
+        "localizacion": "Cordoba",
+        "direccion": "Monseñor Pablo Cabrera 5020\nX5008HJP-Córdoba-Argentina",
+        "correo": "S/D",
+        "sitio_web": "https://www.dta-sa.com/",
+        "servicios": "Algunos productos son EGSEs, equipos de segmento terrestre RF como (SSPA, CONVERTIDORES UP/DW, FILTROS, ANTENAS, etc.), y productos específicos con software incorporado para aplicaciones militares y espaciales.\n\n",
+        "descripcion": "DTA es una empresa especializada en los mercados aeroespacial y de defensa. En el área comercial, es socio comercial y/o representante de empresas como AGILE, AXON, COBHAM/AEROFLEX, DUCOMMUN, TCS, CI-SYSTEMS, NATIONAL INSTRUMENTS, EMRESEARCH, SENSONOR, etc.\n\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.16663129908173,
+          -31.32711062649791
+        ]
+      },
+      "properties": {
+        "nombre": "ASCENTIO TECHNOLOGIES S.A.",
+        "localizacion": "Cordoba",
+        "direccion": "Av. Rafael Núñez 5220, X5220 Córdoba, Pedro Nolasco Rodríguez 455, X5806 Río Cuarto, Córdoba",
+        "correo": "S/D",
+        "sitio_web": "https://www.ascentio.com.ar/",
+        "servicios": "Ingenieria, Hardware y Firmware, Desarrollo de software, Ensayos, Integracion y despiegue, Operación",
+        "descripcion": "Somos una empresa argentina de base tecnológica dedicada al diseño, desarrollo y operación de sistemas complejos de alta disponibilidad para los sectores aeroespacial, industrial, energético y de telecomunicaciones."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.34117678674368,
+          -34.625553849443115
+        ]
+      },
+      "properties": {
+        "nombre": "EmTech Space",
+        "localizacion": "Buenos Aires, Bahia Blanca ",
+        "direccion": "Viamonte 685\nBahía Blanca | Buenos Aires ",
+        "correo": "info@emtech.com.ar",
+        "sitio_web": "https://www.emtechsa.com/",
+        "servicios": "FPGA, EMBEDDED & SOFTWARE\nDEVELOPMENT",
+        "descripcion": "Contamos con más de 20 años de experiencia desarrollando con éxito hardware y software a medida, desde complejos proyectos FPGA hasta sistemas embebidos de vanguardia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.321580720584265,
+          -34.67597442877887
+        ]
+      },
+      "properties": {
+        "nombre": " KOHLENIA S.R.L. ",
+        "localizacion": "Buenos Aires",
+        "direccion": "\n\nCarlos Tejedor 2576,\n\nR. Rojas (1618)\n\nProvincia de Buenos Aires, Argentina\n",
+        "correo": "S/D",
+        "sitio_web": "https://www.kohlenia.com.ar",
+        "servicios": "Placas y paneles sándwich, Tubos de Fibra de carbono, Desarrollo de productos y fabricación con materiales compuestos\n\n\n",
+        "descripcion": "KOHLENIA ofrece productos y servicios a medida en materiales compuestos avanzados. Diseña sus propias tecnologías de fabricación cubriendo procesos, equipamiento y software, lo cual le permite abordar las necesidades particulares de cada cliente de manera integral e innovadora para brindar una solución de calidad a precio competitiv"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.45568159839688,
+          -34.516637270303654
         ]
       },
       "properties": {
         "nombre": "Satellogic",
+        "localizacion": "España, Uruguay, Buenos Aires, Cordoba, USA",
+        "direccion": "Scalabrini Ortiz 3333, 1er piso, CABA",
+        "correo": "S/D",
+        "sitio_web": "https://satellogic.com/",
+        "servicios": "Informacion satelital e: Energia, Mineria, Gobierno &defensa, Finanzas y aseguradoras, Clima y ambiente.\nConstelacion como servicio, Segmentos de vuelos, Imágenes multiespectrtales",
+        "descripcion": "Satellogic está democratizando el acceso a datos geoespaciales críticos para impulsar una mejor toma de decisiones global. Queremos hacer nuestra parte en la construcción de un mundo en el que todas las organizaciones estén preparadas para los desafíos del mañana."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.49917236110641,
+          -34.652159911209466
+        ]
+      },
+      "properties": {
+        "nombre": "ARSULTRA S.A.  ",
         "localizacion": "Buenos Aires",
-        "direccion": "Av. Del Libertador 498, CABA",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://www.satellogic.com/",
-        "servicios": "Observación de la Tierra con microsatélites"
+        "direccion": "Gaspar Melchor De Jovellanos 1425 Departamento 9 1269 Autonomous City Of Buenos Aires ·",
+        "correo": "jmsemegone@arsultra.com",
+        "sitio_web": "http://www.arsultra.com/",
+        "servicios": "Computadora de a bordo para plataformas e Instrumentos\nAsesoria de confiabilidad: \nThermal Stress, Shock, Vibrations,\nHi-Rel Applications, Vacuum App,\nHIGH Temperature App",
+        "descripcion": "ARSULTRA S.A. de Argentina es una empresa de investigación y desarrollo de alta tecnología, dedicada principalmente a\ndiseñar y desarrollar computadoras de alta confiabilidad para el mercado espacial."
       }
     },
     {
@@ -82,18 +367,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -64.22263405991421,
-          -31.373237729534324
+          -67.47224796836996,
+          -39.106237588716056
         ]
       },
       "properties": {
-        "nombre": "Arsultra",
-        "localizacion": "Córdoba",
-        "direccion": "Córdoba, Argentina",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://arsultra.com/",
-        "servicios": "Componentes electrónicos para el espacio"
+        "nombre": "Mecanica 14 ",
+        "localizacion": "Rio Negro",
+        "direccion": "Vuelta de Obligado 592 (R8400IWJ) Bariloche - Río Negro",
+        "correo": "S/D",
+        "sitio_web": "http://mecanica14.com/",
+        "servicios": "MECANICA 14 diseña, fabrica y ensambla piezas\na partir de materiales estratégicos para la industria aeroespacial.",
+        "descripcion": "MECANICA 14 diseña, fabrica y ensambla piezas\na partir de materiales estratégicos para la industria aeroespacial."
       }
     },
     {
@@ -101,37 +386,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -55.89560490181379,
-          -27.35211678609214
+          -58.46625850690602,
+          -34.58318793904529
         ]
       },
       "properties": {
-        "nombre": "FanIoT",
-        "localizacion": "Misiones",
-        "direccion": "Posadas, Misiones",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://faniot.ar/",
-        "servicios": "NanoSensores, nanosatélites y electrónica"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.411360945173335,
-          -34.590389916264115
-        ]
-      },
-      "properties": {
-        "nombre": "Tlon Space",
+        "nombre": "DIYSAtellite",
         "localizacion": "Buenos Aires",
-        "direccion": "Buenos Aires, Argentina",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://www.tlon.space/",
-        "servicios": "Motores para satélites y vehículos orbitales"
+        "direccion": "Pintos 1991, Banfield Este, Buenos Aires 1828, AR",
+        "correo": "S/D",
+        "sitio_web": "https://diysatellite.com/",
+        "servicios": "Diseño pocketqube: placas integradas con transceptor/microcontrolador, placas de carga de baterías (MPPT), paneles solares y estructuras de aluminio.\n\nLanzamiento de pocketqube: Podemos ayudarte a encontrar oportunidades para que tu satélite pocketqube vuele con nuestro Dispensador Orbital de Bolsillo.",
+        "descripcion": "\nPromoción de la educación en tecnología espacial democratizando el acceso al espacio"
       }
     },
     {
@@ -139,37 +405,170 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.2116400110389,
-          -26.79770087821672
+          -58.39702963309502,
+          -34.55834320099596
         ]
       },
       "properties": {
-        "nombre": "Epic Aerospace",
-        "localizacion": "Tucumán",
-        "direccion": "San Miguel de Tucumán",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://epicaerospace.com/",
-        "servicios": "Plataformas satelitales y lanzadores"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -58.44713472825663,
-          -34.60471370023544
-        ]
-      },
-      "properties": {
-        "nombre": "DIY-Satellite",
+        "nombre": "CTA",
         "localizacion": "Buenos Aires",
-        "direccion": "Argentina",
-        "telefono": "",
-        "correo": "",
-        "sitio_web": "https://diysatellite.org/",
-        "servicios": "Satélites DIY y democratización del acceso espacial"
+        "direccion": "Calle 116 e/ 47 y 48, B1900 La Plata, Provincia de Buenos Aires, Argentina",
+        "correo": "S/D",
+        "sitio_web": "https://cta.ing.unlp.edu.ar/",
+        "servicios": "Tecnologías Aeroespaciales: En el CTA desarrollamos tecnologías vinculadas a ingenieria para lanzadores satelitales, satélites y sus componentes. Desarrollo de ingeniería en todas sus etapas, desde el diseño de misión hasta la integración y ensayos, para CubeSats, nanosatélites y otros pequeños satélites.\nEl CTA cuenta con un equipo interdisciplinario que permite desarrollar baterías tanto de uso terrestre como espaciales",
+        "descripcion": "El Centro Tecnologico Aeroespacial se impulsa y se retroalimenta, con la visión de seguir apostando por el desarrollo tecnológico para la soberanía espacial, así como la formación de recursos humanos, la proyección del crecimiento industrial del país y la transferencia de tecnologías para la innovación y el desarrollo sustentable a la comunidad.\n"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0,
+          -35.0
+        ]
+      },
+      "properties": {
+        "nombre": "Skyloom Global",
+        "localizacion": "USA, ",
+        "direccion": NaN,
+        "correo": "S/D",
+        "sitio_web": "https://www.skyloom.co/",
+        "servicios": "Ofrecemos servicios de transporte de datos a escala planetaria que incrementan enormemente el ancho de banda, la disponibilidad y la resiliencia, a la vez que reducen la latencia y el coste total de las operaciones.\n\nNuestra tecnología óptica patentada facilita conexiones seguras de alta capacidad, ya sea a través de nuestro sistema de transporte de datos multiórbita de extremo a extremo o dentro de su propia red.",
+        "descripcion": "Skyloom se fundó para dar servicio a este futuro renacimiento con la infraestructura orbital para internet sin fibra. Somos la primera empresa de telecomunicaciones espacial de la Tierra."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.405117778624465,
+          -34.680754969983965
+        ]
+      },
+      "properties": {
+        "nombre": "NOVO SPACE S.R.L.  ",
+        "localizacion": "Buenos Aires, Luxemburgo, USA",
+        "direccion": "Costa Rica 5546, 6to piso",
+        "correo": "S/D",
+        "sitio_web": "https://www.novo.space/",
+        "servicios": "Computdadora de a bordo, Placas para computadoras de a bordo, electronica, Software para diseño de computadoras",
+        "descripcion": "Novo Space fue fundada por dos ingenieros experimentados, frustrados por la falta de reutilización en la industria espacial... Con más de 30 años de experiencia combinada trabajando con tecnología de alta resistencia a la radiación en grandes satélites y electrónica de consumo en SmallSats, se embarcaron en la aventura de desarrollar electrónica modular de alto rendimiento y tolerante a la radiación para las misiones espaciales más ambiciosas. "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.496262622836944,
+          -34.59716634028813
+        ]
+      },
+      "properties": {
+        "nombre": " EPIC AEROSPACE S.A.S. ",
+        "localizacion": "Buenos Aires, USA, Uruguay",
+        "direccion": "Buenos Aires\n\nJosé A. Cabrera 5653\n\nCABA, C1414",
+        "correo": "S/D",
+        "sitio_web": "https://epic-aerospace.com/",
+        "servicios": "EPIC CHIMERA\nFamilia de vehículos de transferencia orbital\n• Capacidad de transporte de orbitas bajas a\ngeoestacionarias.\n• Capacidad de carga útil de hasta 300 kg para LEO\nCapacidad de carga útil de hasta 400 kg para LEO\n• Impulso específico de 295 a 315 s en vacío.\n• 95% HTP - Kerose",
+        "descripcion": "Inspirado en sistemas que han unificado al mundo, como gigantescas redes ferroviarias, que nos permiten viajar libremente y a bajo costo entre ciudades, países y regiones cercanas de la tierra. Centros aeroportuarios enormes, donde despegan aviones que transportan a millones de personas a través de continentes enteros en tan solo unas horas de viaje. Gigantescas redes de computadoras, donde se almacenan y se mezclan a diario vidas enteras de la historia humana. Decidimos repensar radicalmente cómo la humanidad accederá al espacio. Proveemos acceso a órbitas de leo a geo para pequeñas y medianas cargas, resolviendo problemas de última milla"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.345638854727824,
+          -34.59380471737041
+        ]
+      },
+      "properties": {
+        "nombre": " LIA AEROSPACE S.A.U.",
+        "localizacion": "Buenos Aires, Inglaterra",
+        "direccion": "Av. Libertador 6550, 3rd floor,\nAutonomous City of Buenos Aires,\nC1428ARV\nArgentina",
+        "correo": "S/D",
+        "sitio_web": "https://lia-aerospace.com/",
+        "servicios": "Ofrecemos sistemas de propulsión bipropelente ecológicos, no tóxicos y no criogénicos para el cambio orbital y la maniobra de pequeños satélites y naves espaciales.",
+        "descripcion": "Transformando la Economía Espacial\n\nDiseñamos soluciones ecológicas y de bajo costo para la entrega de satélites y naves espaciales en la última milla."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.19202493109088,
+          -31.36840704870875
+        ]
+      },
+      "properties": {
+        "nombre": "LatAm-SAt",
+        "localizacion": "Cordoba",
+        "direccion": NaN,
+        "correo": "S/D",
+        "sitio_web": "https://latam-sat.com/",
+        "servicios": "Segmento de Vuelo (Tipo CubeSAT): Fabricación del Subsistema de Harness Satelital, Diseño y Fabricación de antenas, Análisis, Diseño y Fabricación de otros subsistemas y partes, Estruct Latam Cube – Estructura mecánica para Cubesat, Equipo Mecanicos de tierra\nServicios de Estación Terrena:, LatAmSat derrolla LatAm-Net: Una estación Terrena para satélites de órbita baja, para transmisión y recepción en las bandas UHF y VHF, además de recepción en banda S. Próximamente sumaremos la banda X\nServicos de ingenieria: Análisis, diseño y desarrollo integral de misiones satelitales, Ingeniería Conceptual\nFormacion: LaTamSAT Academica",
+        "descripcion": "Soluciones Aeroespaciales desde Latinoamérica:LATAMSAT es una startup dedicada a la investigación, desarrollo e innovación de tecnologías emergentes, con foco la industria aeroespacial, abordando tanto el segmento espacial como al segmento terreno, con productos y servicios para micro y nanosatélites."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.33008053488092,
+          -34.62177130831217
+        ]
+      },
+      "properties": {
+        "nombre": "INNOVA-SPACE ",
+        "localizacion": "Buenos Aires",
+        "direccion": NaN,
+        "correo": "S/D",
+        "sitio_web": "https://www.innova-space.com/es/",
+        "servicios": "Servicios de IOT basados Picosatellite · Pocketqube para aplicaicones maritimas, ambientales, Mineriia Oil ans gas y Agricultura",
+        "descripcion": "Revolucionamos la tecnología satelital\nSomos prooveedores de la plataforma que revolucionó la tecnología satelital, por tamaño, bajo costo de lanzamiento y prestaciones de servicios.\nACCESIBILIDAD\nTe ofrecemos el acceso al espacio llave en mano más económico, bajando dramáticamente los costos satelitales.\nINNOVACIÓN\nProponemos un cambio fundamental, haciendo crecer exponencialmente la industria espacial mundial.Estamos cambiando el mundo con comunicaciones satelitales IOT.\nEFECTIVIDAD\nInnova Space te brinda una conexión bidireccional y altamente segura a cualquier dispositivo IOT en la tierra, en pocos minutos."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0,
+          -35.0
+        ]
+      },
+      "properties": {
+        "nombre": "SOLAR54",
+        "localizacion": "La Rioja",
+        "direccion": "Los Colorados,La Rioja. - Argentina.",
+        "correo": "S/D",
+        "sitio_web": "https://www.solar54.com/",
+        "servicios": "Basado en uno de los lugares más parecidos al planeta rojo en la Tierra,\nSOLAR54 consistirá en el establecimiento de un sistema de módulos\ngeodésicos móviles en la Reserva Provincial Los Colorados, en La Rioja - Argentina.\nTiene el objetivo de emular las condiciones de vida, laboratorios de\nTecnología Espacial y Sistemas de producción de alimentos que se utilizarían en el planeta Marte.",
+        "descripcion": "El Proyecto de Innovación Tecnológico Publico/Privado para la Industria de Exploración Espacial Argentina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.32495308500392,
+          -34.699562673001715
+        ]
+      },
+      "properties": {
+        "nombre": "XSAM",
+        "localizacion": "CABA",
+        "direccion": "Gallo 120 - CABA - Argentina",
+        "correo": "S/D",
+        "sitio_web": "https://xsam.space/",
+        "servicios": "Desarrollamos tecnología avanzada SAR (Radar de Apertura Sintética) para satisfacer las necesidades de nuestros clientes. Mediante la integración de componentes COTS (Commercial Off-The-Shelf) y un enfoque de ingeniería ágil, desarrollamos cargas útiles SAR rentables y cadenas de procesamiento para respaldar las misiones satelitales de nuestros clientes en todo el mundo. Nuestra tecnología SAR también se puede integrar en drones y aviones.\nBrindamos servicios de ingeniería de sistemas alineados con la filosofía de New Space, enfocándonos en soluciones rentables y de rápida implementación. Con un equipo de alto rendimiento y años de experiencia en el desarrollo de sistemas espaciales, nuestra misión es diseñar e implementar sistemas que satisfagan de manera eficiente las necesidades de nuestros clientes, garantizando bajos costos y utilizando enfoques de desarrollo iterativos e incrementales.\n\n",
+        "descripcion": "Desarrollamos FOCUS, una constelación avanzada de satélites SAR de banda X diseñada para el análisis interferométrico. FOCUS redefine el monitoreo de infraestructura con un sistema satelital escalable, precisión milimétrica y análisis impulsados por IA, lo que garantiza una toma de decisiones proactiva a precios disruptivos.\n"
       }
     }
   ]
