@@ -431,7 +431,7 @@
       "properties": {
         "nombre": "Skyloom Global",
         "localizacion": "USA, ",
-        "direccion": S/D,
+        "direccion": "S/D",
         "correo": "S/D",
         "sitio_web": "https://www.skyloom.co/",
         "servicios": "Ofrecemos servicios de transporte de datos a escala planetaria que incrementan enormemente el ancho de banda, la disponibilidad y la resiliencia, a la vez que reducen la latencia y el coste total de las operaciones.\n\nNuestra tecnología óptica patentada facilita conexiones seguras de alta capacidad, ya sea a través de nuestro sistema de transporte de datos multiórbita de extremo a extremo o dentro de su propia red.",
@@ -507,7 +507,7 @@
       "properties": {
         "nombre": "LatAm-SAt",
         "localizacion": "Cordoba",
-        "direccion": S/D,
+        "direccion": "S/D",
         "correo": "S/D",
         "sitio_web": "https://latam-sat.com/",
         "servicios": "Segmento de Vuelo (Tipo CubeSAT): Fabricación del Subsistema de Harness Satelital, Diseño y Fabricación de antenas, Análisis, Diseño y Fabricación de otros subsistemas y partes, Estruct Latam Cube – Estructura mecánica para Cubesat, Equipo Mecanicos de tierra\nServicios de Estación Terrena:, LatAmSat derrolla LatAm-Net: Una estación Terrena para satélites de órbita baja, para transmisión y recepción en las bandas UHF y VHF, además de recepción en banda S. Próximamente sumaremos la banda X\nServicos de ingenieria: Análisis, diseño y desarrollo integral de misiones satelitales, Ingeniería Conceptual\nFormacion: LaTamSAT Academica",
@@ -526,7 +526,7 @@
       "properties": {
         "nombre": "INNOVA-SPACE ",
         "localizacion": "Buenos Aires",
-        "direccion": S/D,
+        "direccion": "S/D",
         "correo": "S/D",
         "sitio_web": "https://www.innova-space.com/es/",
         "servicios": "Servicios de IOT basados Picosatellite · Pocketqube para aplicaicones maritimas, ambientales, Mineriia Oil ans gas y Agricultura",
